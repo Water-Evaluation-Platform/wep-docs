@@ -1,0 +1,71 @@
+## Overview
+
+Here you can find detailed notes and instructions on the various WEP features, profiles and analysis modes. 
+
+The [Accounts](accounts.qmd) docs provide information on how to sign up for a WEP account and how your data is stored and used. 
+
+The [Profiles](profiles.qmd) docs explains how to create custom farm, catchment and cost profiles. These are saved to your account and let you specify custom water demands, catchment properties and different costs associated with building and maintaining dam and catchments. 
+
+The [Analysis modes](analysis.qmd) docs provides instructions on using the various analysis modes for simulating dam and catchment performance, optimising dam sizes and catchment surfaces to provide reliable water supply and undertaking cost-benefit analyses of fixing leaky dams and using evaporation covers. 
+
+## Navigate the app
+
+The *Settings* tab in the navbar gives you access to your account and options to configure farm, costs and catchment profiles. If you have not signed up create a WEP account you can access the sign up form here too.
+
+![Find the Settings menu in the WEP navbar](img/settings.jpg)
+
+You can access the dam and roaded catchment analysis tools from the WEP landing page either through the *Tools* tab in the navbar or scrolling down.
+
+```{=html}
+<div class="video-container">
+    <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1eY9bglfhco8IJS1YG3QuqVk90yAIA81x/preview" allow="autoplay"></iframe>
+</div>
+<br>
+```
+
+Each analysis mode is configured using a similar user interface. The sidebar contains a column of widgets that are used to configure the dam simulation or analysis. Click on the form section titles to bring up widgets to enter values into form fields. Use the calendar widgets to specify the date range to run the simulation or analysis for. Use the slider widgets to set the size and volume of the dam.
+
+```{=html}
+<div class="video-container">
+    <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1IlYPEyt4IKczB9yU118qDMb8qb1mzno5/preview" allow="autoplay"></iframe>
+</div>
+<br>
+```
+
+You need to click on the map to locate the dam being simulated. There is a search widget in the top-right of the map display that you can use to search for place names and centre the map on that location. 
+
+```{=html}
+<div class="video-container">
+    <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1D9vbTP7bxq645JEM9GyPXPmKexFBY48f/preview" allow="autoplay"></iframe>
+</div>
+<br>
+```
+
+If you are unsure of the area of a catchment that you wish to simulate, you can use map drawing tools to sketch the catchment on the map. 
+
+```{=html}
+<div class="video-container">
+    <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1waAFfBJ4AgrgpWKg9bryHDLOOFiba4Td/preview" allow="autoplay"></iframe>
+</div>
+<br>
+```
+
+You can also use the drawing tools to edit a catchment. 
+
+```{=html}
+<div class="video-container">
+    <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1mPT9jF_slH_4VWMjmd977zGHGWcj3CeA/preview" allow="autoplay"></iframe>
+</div>
+<br>
+```
+
+The results of analysis are summarised as a series of report cards and interactive charts. If you have an account, these results are saved and can be visualised at a later date from your account.
+
+```{=html}
+<div class="video-container">
+    <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1f7SWTlwK9n10qyARnXVtPmDNALpyqZL8/preview" allow="autoplay"></iframe>
+</div>
+<br>
+```
+
+The *Accounts* section lets you view the results of your saved analyses, delete analyses you no longer need, and view and delete your farm, costs and catchment profiles.

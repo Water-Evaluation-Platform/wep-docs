@@ -1,0 +1,48 @@
+---
+title: "Accounts"
+page-layout: article
+format:
+  html:
+    toc: true
+    collapse-level: 4
+---
+
+## Overview
+
+If you sign up for a WEP-platform account, you can save the results of your analyses and visualise them at a later date. You can also create farm profiles, catchment profiles and costs profiles and attach them to your account for use in simulations. The Settings tab in the navbar contains all account and user management tools.
+
+:::{.callout-tip}
+Sign up for a WEP-platform account at https://waterevaluationplatform.app/dam 
+:::
+
+## Information Privacy
+
+### Commitment to Privacy
+
+The University of Western Australia (UWA) is committed to managing personal information legally and responsibly, and in accordance with its privacy framework (www.uwa.edu.au/privacy) .
+
+### What Information do we collect
+
+When you create an account we only collect the following personal information:
+
+* First Name
+* Last Name
+* Email Address
+
+Optionally you can provide your organisation. 
+ 
+### Why we collect your personal information
+
+This information is used solely for account registration, communication, and service delivery.
+
+This information also enables several app features such as allowing users to save the results of analyses and view them later, to create custom information as inputs to dam simulations that is more geographically appropriate, and to keep a record of simulation inputs so they can be reused.
+
+Information related to saved simulations, such as input parameters, results or visualisations is not shared between accounts.
+
+We do not use this information for research or to collect data for research. We do not disclose your information except as required to do by law or to provide support to you.
+
+### Information Security and Storage
+
+Your personal information is securely stored and protected against unauthorised access, loss, or misuse. Only authorised personnel can access your details.
+
+Signing into your account will enable you to view your information that is stored by the application.

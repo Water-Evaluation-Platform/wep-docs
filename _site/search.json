@@ -1,0 +1,140 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Water Evaluation Platform",
+    "section": "",
+    "text": "The Water Evaluation Platform is an interface to dam water modelling tools to explore the performance and costs associated with different dams, roaded catchments and evaporation treatments.\nIt has features for simulating dams on farms alongside dams are used as part of an off-farm non-potable water supply, such as town dams.\nYou can use the WEP-platform to simulate the long-run performance of an existing, simulate an existing dam with different water demand scenarios, or a explore hypothetical dam and water demands.\nThe WEP-platform provides a suite of analysis modes to optimise dam size, design roaded catchments to ensure sufficient run off is generated, and assess the costs and benefits of fixing leaky dams and using evaporation covers."
+  },
+  {
+    "objectID": "index.html#overview",
+    "href": "index.html#overview",
+    "title": "Water Evaluation Platform",
+    "section": "",
+    "text": "The Water Evaluation Platform is an interface to dam water modelling tools to explore the performance and costs associated with different dams, roaded catchments and evaporation treatments.\nIt has features for simulating dams on farms alongside dams are used as part of an off-farm non-potable water supply, such as town dams.\nYou can use the WEP-platform to simulate the long-run performance of an existing, simulate an existing dam with different water demand scenarios, or a explore hypothetical dam and water demands.\nThe WEP-platform provides a suite of analysis modes to optimise dam size, design roaded catchments to ensure sufficient run off is generated, and assess the costs and benefits of fixing leaky dams and using evaporation covers."
+  },
+  {
+    "objectID": "docs/accounts.html",
+    "href": "docs/accounts.html",
+    "title": "Accounts",
+    "section": "",
+    "text": "If you sign up for a WEP-platform account, you can save the results of your analyses and visualise them at a later date. You can also create farm profiles, catchment profiles and costs profiles and attach them to your account for use in simulations. The Settings tab in the navbar contains all account and user management tools.\nSign up for a WEP-platform account at https://waterevaluationplatform.app/dam",
+    "crumbs": [
+      "Docs",
+      "Accounts"
+    ]
+  },
+  {
+    "objectID": "docs/accounts.html#overview",
+    "href": "docs/accounts.html#overview",
+    "title": "Accounts",
+    "section": "",
+    "text": "If you sign up for a WEP-platform account, you can save the results of your analyses and visualise them at a later date. You can also create farm profiles, catchment profiles and costs profiles and attach them to your account for use in simulations. The Settings tab in the navbar contains all account and user management tools.\nSign up for a WEP-platform account at https://waterevaluationplatform.app/dam",
+    "crumbs": [
+      "Docs",
+      "Accounts"
+    ]
+  },
+  {
+    "objectID": "docs/accounts.html#information-privacy",
+    "href": "docs/accounts.html#information-privacy",
+    "title": "Accounts",
+    "section": "Information Privacy",
+    "text": "Information Privacy\n\nCommitment to Privacy\nThe University of Western Australia (UWA) is committed to managing personal information legally and responsibly, and in accordance with its privacy framework (www.uwa.edu.au/privacy) .\n\n\nWhat Information do we collect\nWhen you create an account we only collect the following personal information:\n\nFirst Name\nLast Name\nEmail Address\n\nOptionally you can provide your organisation.\n\n\nWhy we collect your personal information\nThis information is used solely for account registration, communication, and service delivery.\nThis information also enables several app features such as allowing users to save the results of analyses and view them later, to create custom information as inputs to dam simulations that is more geographically appropriate, and to keep a record of simulation inputs so they can be reused.\nInformation related to saved simulations, such as input parameters, results or visualisations is not shared between accounts.\nWe do not use this information for research or to collect data for research. We do not disclose your information except as required to do by law or to provide support to you.\n\n\nInformation Security and Storage\nYour personal information is securely stored and protected against unauthorised access, loss, or misuse. Only authorised personnel can access your details.\nSigning into your account will enable you to view your information that is stored by the application.",
+    "crumbs": [
+      "Docs",
+      "Accounts"
+    ]
+  },
+  {
+    "objectID": "index.html#water-smart-dams",
+    "href": "index.html#water-smart-dams",
+    "title": "Water Evaluation Platform",
+    "section": "Water Smart Dams",
+    "text": "Water Smart Dams\nThe WEP-platform has been developed as part of the Water Smart Dams project."
+  },
+  {
+    "objectID": "index.html#dam-simulations",
+    "href": "index.html#dam-simulations",
+    "title": "Water Evaluation Platform",
+    "section": "Dam simulations",
+    "text": "Dam simulations\nThe WEP-platform is based on a daily water balance model that computes the volume, depth and surface area of water in the dam each day.\nFor a user-specified time-period, daily weather data is retrieved from the SILO product and used to drive the simulation. The dam is filled up by rainfall events and water is lost due to evaporation.\nThe daily water balance model is linked to a catchment model describing the area, surface type and hydraulic properties of a roaded catchment draining into the dam. When the catchment is rained on, the catchment model determines how much runoff is generated and flows into the dam. Users can create custom catchment profiles or use preset catchments that are representative of common roaded catchments found in Western Australia.\nEach dam simulation is assigned a farm profile. The farm profile is a representation of water extraction from the dam (e.g. daily livestock drinking). The farm profile, daily evaporation and whether the dam is leaky or not determines the outflows from the dam.\nThe reliability of the dam is computed as the percentage of months during the lifetime of a specified simulation that there was sufficient water in the dam to meet demand.\nSimulations can be run with a costs profile. A costs profile is a record of costs associated with constructing and maintaining dams and roaded catchments. Indicative default costs are provided to all users. However, users with an account can, and should, create their own costs profiles."
+  },
+  {
+    "objectID": "examples.html",
+    "href": "examples.html",
+    "title": "Case study examples",
+    "section": "",
+    "text": "Merredin Roaded Catchment\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "examples.html#getting-up",
+    "href": "examples.html#getting-up",
+    "title": "Habits",
+    "section": "Getting up",
+    "text": "Getting up\n\nTurn off alarm\nGet out of bed"
+  },
+  {
+    "objectID": "examples.html#going-to-sleep",
+    "href": "examples.html#going-to-sleep",
+    "title": "Habits",
+    "section": "Going to sleep",
+    "text": "Going to sleep\n\nGet in bed\nCount sheep"
+  },
+  {
+    "objectID": "concepts.html",
+    "href": "concepts.html",
+    "title": "WEP Concepts",
+    "section": "",
+    "text": "The WEP-platform is based on a daily water balance model that computes the volume, depth and surface area of water in the dam each day and also daily inflows as runoff from roaded and natural catchments and outflows to meet water demands.\nThe user specifies the maximum volume and shape of the dam. For example, for a square dam the user would specify the surface length, maximum depth and slope (from surface edge to base edge). Using these parameters WEP will compute daily dam water volumes, water depth and water surface area. The user also specifies whether the dam is leaky or not. Leaky dams lose a fraction of water through the dam sides touching the water body each day.\nFor a user-specified time-period, daily weather data is retrieved from the SILO product and used to drive the simulation. The dam is filled up by rainfall events and water is lost due to evaporation. Morton’s lake evaporation is used to compute evaporation losses."
+  },
+  {
+    "objectID": "concepts.html#dam-simulations",
+    "href": "concepts.html#dam-simulations",
+    "title": "WEP Concepts",
+    "section": "",
+    "text": "The WEP-platform is based on a daily water balance model that computes the volume, depth and surface area of water in the dam each day and also daily inflows as runoff from roaded and natural catchments and outflows to meet water demands.\nThe user specifies the maximum volume and shape of the dam. For example, for a square dam the user would specify the surface length, maximum depth and slope (from surface edge to base edge). Using these parameters WEP will compute daily dam water volumes, water depth and water surface area. The user also specifies whether the dam is leaky or not. Leaky dams lose a fraction of water through the dam sides touching the water body each day.\nFor a user-specified time-period, daily weather data is retrieved from the SILO product and used to drive the simulation. The dam is filled up by rainfall events and water is lost due to evaporation. Morton’s lake evaporation is used to compute evaporation losses."
+  },
+  {
+    "objectID": "concepts.html#catchment-profiles",
+    "href": "concepts.html#catchment-profiles",
+    "title": "WEP Concepts",
+    "section": "Catchment profiles",
+    "text": "Catchment profiles\nThe daily water balance model is linked to a catchment model that determines how much runoff is generated and flows into the dam after rainfaill events. The catchment profile parameterises the model describing the area, surface type and hydraulic properties of the catchment. Users can create custom catchment profiles or use preset catchments that are representative of common roaded catchments found in Western Australia. The parameter values for the representative Western Australian catchments were derived from monitoring of actual roaded catchments and analysis undertaken by the Water Smart Dams project."
+  },
+  {
+    "objectID": "concepts.html#farm-profiles",
+    "href": "concepts.html#farm-profiles",
+    "title": "WEP Concepts",
+    "section": "Farm profiles",
+    "text": "Farm profiles\nEach dam simulation is assigned a farm profile. The farm profile represents water extraction from the dam considering daily livestock drinking rates, spray requirements, irrigation and other water uses. The farm profile also lets users configure other water sources, such as bore supply, that are combined with dam water to meet overall water demand. The farm profile can be used to describe a range of on-farm and off-farm non-potable water requirements. In certain circumstances, it is thus possible to configure farm profiles such that the WEP platform can be used to simulate the performance of dams off-farm, such as town dams providing irrigation water for public green spaces. The farm profile, daily evaporation and whether the dam is leaky or not determines the daily outflows from the dam."
+  },
+  {
+    "objectID": "concepts.html#dam-reliability-and-performance",
+    "href": "concepts.html#dam-reliability-and-performance",
+    "title": "WEP Concepts",
+    "section": "Dam reliability and performance",
+    "text": "Dam reliability and performance\nThe reliability of the dam is computed as the percentage of months during the lifetime of a specified simulation that there was sufficient water in the dam to meet demand, as specified by the farm profile."
+  },
+  {
+    "objectID": "concepts.html#cost-profiles",
+    "href": "concepts.html#cost-profiles",
+    "title": "WEP Concepts",
+    "section": "Cost profiles",
+    "text": "Cost profiles\nSimulations can be run with a costs profile. A costs profile is a record of costs associated with constructing and maintaining dams and roaded catchments. Indicative default costs are provided to all users. However, users with an account can, and should, create their own costs profiles."
+  },
+  {
+    "objectID": "concepts.html#analysis-modes",
+    "href": "concepts.html#analysis-modes",
+    "title": "WEP Concepts",
+    "section": "Analysis modes",
+    "text": "Analysis modes\nThe WEP-platform provides a range of analysis modes. All of the analysis modes are based on the above described model of dam simulations, catchment profiles, farm profiles and costs profiles:\n\nDam and catchment simulation: Simulate a dam’s performance and water demand using historical weather data.\nDam design: Find the optimum and cheapest reliable dam for your catchment and water demand.\nCatchment analysis: Find the optimum and cheapest reliable catchment surface and area for your water demand.\nLeaky dam analysis: Fix a leaky dam and see how dam performance improves and compute the cost-benefit of fixing the leak.\nEvaporation reduction analysis: Cover a dam and see how dam performance improves and compute the cost-benefit of putting evaporation covers on the dam."
+  }
+]

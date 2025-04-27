@@ -1,0 +1,55 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "WEP docs"
+  navbar:
+    left:
+      - href: index.qmd
+        text: WEP
+      - href: concepts.qmd
+        text: Concepts
+      - href: getting-started.qmd
+        text: Getting started
+      - href: user-guide/user-guide.qmd
+        text: User guide
+      - href: case-studies.qmd
+        text: Case studies
+  
+  sidebar:
+    id: "User guide"
+    title: "User guide"
+    style: "floating"
+    collapse-level: 2
+    align: left
+    contents:
+        - text: "Overview"
+          href: user-guide/user-guide.qmd
+        - text: "Accounts"
+          href: user-guide/accounts.qmd
+        - text: "Profiles"
+          href: user-guide/profiles.qmd
+        - text: "Analysis modes"
+          href: user-guide/analysis.qmd
+
+  page-footer: 
+    center:
+      - text: Water Evaluation Platform
+    left: |
+      ![](img/cwss_logo.png){fig-alt="CWSS" height=50px width=50px}
+    right:
+      - text: <i class="bi bi-envelope"></i>
+        url: "mailto:cwss@uwa.edu.au"
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+editor:
+    render-on-save: true
+

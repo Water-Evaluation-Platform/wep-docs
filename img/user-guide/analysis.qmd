@@ -1,0 +1,107 @@
+---
+title: "Analysis modes"
+page-layout: article
+format:
+  html:
+    toc: true
+    collapse-level: 4
+---
+
+## Dam and catchment simulation
+
+Use this tool to simulate a dam's performance using historical weather data and custom farm water uses and catchments. 
+
+:::{.callout-note}
+## Simulation configuration
+
+Configure the simulation using the widgets in the sidebar.
+
+* **Sim configuration:** If you have already used these simulation configuration parameters, you can load them and populate the form from the server.
+* **Name:** Give your simulation a descriptive name, this will help you identify it in your account and load the results later.
+* **Farm profile:** Select a farm profile, this describes the water demand placed on the dam (e.g. by livestock drinking or spray requirements).
+* **Dam costs:** Select a costs profile, this is used to estimate the costs of constructing and maintaining the dam and catchment configuration.
+* **Simulation duration:** Use the date pickers to set the date range to run the simulation for. To do a good job at representing a dam's reliability, it is best to select a relatively long time period (e.g. greater than 20 years).
+* **Dam location:** Click on the map to locate the dam, this is used to fetch historical weather data to run your simulation.
+* **Dam morphometry:** Use the sliders to specify the dam morphometry. This sets the surface area and volume of the dam.
+* **Dam water conditions:** Set the starting water level for the dam and check the box if the dam is leaky. Leaky dams lose water through the dam walls and base.
+* **Catchments 1 and 2:** You can use the map drawing tools to delineate your catchment on the map, or if you know the area of the catchment you can enter it directly. Use the dropdown list the select the catchment type, this will attach a catchment profile to your simulation which determines how runoff is generated.
+:::
+
+## Dam design
+
+The smallest reliable dam was identified by iteratively searching through simulations with different dam morphometries and assessing their performance in terms of providing sufficient water to meet demand as defined by the farm profile.
+
+:::{.callout-note}
+## Analysis configuration
+
+Configure the analysis using the widgets in the sidebar.
+
+* **Sim configuration:** If you have already used these simulation configuration parameters, you can load them and populate the form from the server.
+* **Name:** Give your analysis a descriptive name, this will help you identify it in your account and load the results later.
+* **Dam design configuration:** Set the desired dam reliability, the analysis will try and identify the smallest dam that meets this reliability tolerance. The reliability refers to the percentage of months that a dam meets demand over the lifetime of a simulation. The number of optimisation search steps refers to the number searches the algorithm will perform looking for the cheapest reliable dam. The maximum depth configures the maximum depth that algorithm will search for dams to.
+* **Farm profile:** Select a farm profile, this describes the water demand placed on the dam (e.g. by livestock drinking or spray requirements).
+* **Dam costs:** Select a costs profile, this is used to estimate the costs of constructing and maintaining the dam and catchment configuration.
+* **Simulation duration:** Use the date pickers to set the date range to run the simulation for. To do a good job at representing a dam's reliability, it is best to select a relatively long time period (e.g. greater than 20 years).
+* **Dam location:** Click on the map to locate the dam, this is used to fetch historical weather data to run your analysis.
+* **Catchments 1 and 2:** You can use the map drawing tools to delineate your catchment on the map, or if you know the area of the catchment you can enter it directly. Use the dropdown list the select the catchment type, this will attach a catchment profile to your simulation which determines how runoff is generated.
+:::
+
+## Catchment analysis
+
+For the specified dam morphometry, farm profile and observed weather, a series of simulations are run searching for the smallest reliable catchment across different catchment types.
+
+:::{.callout-note}
+## Analysis configuration
+
+Configure the analysis using the widgets in the sidebar.
+
+* **Sim configuration:** If you have already used these simulation configuration parameters, you can load them and populate the form from the server.
+* **Name:** Give your analysis a descriptive name, this will help you identify it in your account and load the results later.
+* **Catchment analysis configuration:** Set the desired dam reliability, the analysis will try and identify the smallest catchment that meets this reliability tolerance. The reliability refers to the percentage of months that a dam meets demand over the lifetime of a simulation. The number of optimisation search steps refers to the number searches the algorithm will perform looking for the smallest reliable catchment.
+* **Farm profile:** Select a farm profile, this describes the water demand placed on the dam (e.g. by livestock drinking or spray requirements).
+* **Simulation duration:** Use the date pickers to set the date range to run the simulation for. To do a good job at representing a dam's reliability, it is best to select a relatively long time period (e.g. greater than 20 years).
+* **Dam location:** Click on the map to locate the dam, this is used to fetch historical weather data to run your analysis.
+* **Dam morphometry:** Use the sliders to specify the dam morphometry. This sets the surface area and volume of the dam.
+* **Dam water conditions:** Set the starting water level for the dam.
+:::
+
+## Leaky dam analysis
+
+Use this tool to analyse the effect of fixing a leaky dam. The effect on the dam's ability to supply water and the costs of fixing the dam are considered. The tool presents a comparison of dam performance with and without fixing leaks computing the differences in dam reliability (% of months the dam meets water demand) and the cost of water generated by fixing the dam.
+
+:::{.callout-note}
+## Analysis configuration
+
+Configure the analysis using the widgets in the sidebar.
+
+* **Sim configuration:** If you have already used these simulation configuration parameters, you can load them and populate the form from the server.
+* **Name:** Give your simulation a descriptive name, this will help you identify it in your account and load the results later.
+* **Farm profile:** Select a farm profile, this describes the water demand placed on the dam (e.g. by livestock drinking or spray requirements).
+* **Dam costs:** Select a costs profile, this is used to estimate the costs of fixing the leaky dam and computing the value of water saved by fixing the dam.
+* **Simulation duration:** Use the date pickers to set the date range to run the simulation for. To do a good job at representing a dam's reliability, it is best to select a relatively long time period (e.g. greater than 20 years).
+* **Dam location:** Click on the map to locate the dam, this is used to fetch historical weather data to run your simulation.
+* **Dam morphometry:** Use the sliders to specify the dam morphometry. This sets the surface area and volume of the dam.
+* **Dam water conditions:** Set the starting water level for the dam.
+* **Catchments 1 and 2:** You can use the map drawing tools to delineate your catchment on the map, or if you know the area of the catchment you can enter it directly. Use the dropdown list the select the catchment type, this will attach a catchment profile to your simulation which determines how runoff is generated.
+:::
+
+## Evaporation reduction analysis
+
+Use this analysis tool to assess the effect of using covers to reduce evaporation from a dam. You can specify how effective evaporation covers are. The effect of covering a dam on the dam's ability to supply water and the costs of evaporation covers are considered. The tool presents a comparison of dam performance with and without evaporation covers computing the differences in dam reliability (% of months the dam meets water demand) and the cost of water generated by covering the dam.
+
+:::{.callout-note}
+## Analysis configuration
+
+Configure the analysis using the widgets in the sidebar.
+
+* **Sim configuration:** If you have already used these simulation configuration parameters, you can load them and populate the form from the server.
+* **Name:** Give your simulation a descriptive name, this will help you identify it in your account and load the results later.
+* **Evaporation covers:** Enter the percentage reduction of evaporation provided by the covers that you are analysing.
+* **Farm profile:** Select a farm profile, this describes the water demand placed on the dam (e.g. by livestock drinking or spray requirements).
+* **Dam costs:** Select a costs profile, this is used to estimate the costs of covering the dam and computing the value of water saved by the evaporation covers.
+* **Simulation duration:** Use the date pickers to set the date range to run the simulation for. To do a good job at representing a dam's reliability, it is best to select a relatively long time period (e.g. greater than 20 years).
+* **Dam location:** Click on the map to locate the dam, this is used to fetch historical weather data to run your simulation.
+* **Dam morphometry:** Use the sliders to specify the dam morphometry. This sets the surface area and volume of the dam.
+* **Dam water conditions:** Set the starting water level for the dam.
+* **Catchments 1 and 2:** You can use the map drawing tools to delineate your catchment on the map, or if you know the area of the catchment you can enter it directly. Use the dropdown list the select the catchment type, this will attach a catchment profile to your simulation which determines how runoff is generated.
+:::
