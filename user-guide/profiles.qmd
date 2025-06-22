@@ -89,18 +89,18 @@ You can obtain these parameters from the literature, from geospatial soil proper
 * **Vegetated catchment:** Set this to `True` to consider transpiration losses and use the evatranspiration model from Laio et al. (2001) is used.
 :::
 
-## Farm profiles
+## Dam profiles
 
-Under the *Settings* tab in the navbar, you can create farm profiles. A farm profile is a representation of water extraction from the dam considering daily livestock drinking, spray uses, irrigation and other farm water uses. 
+Under the *Settings* tab in the navbar, you can create dam profiles. A dam profile is a representation of water extraction from the dam considering daily livestock drinking, spray uses, irrigation and other dam water uses. 
 
-The farm profile is attached to a dam simulation and is used to estimate the daily demand for water placed on the dam and to remove this water each day.
+The dam profile is attached to a dam simulation and is used to estimate the daily demand for water placed on the dam and to remove this water each day.
 
 ::: {.callout-tip}
 ## Modelling runoff from a plastic catchment
 
 You have a dam which 150 sheep use for drinking water and for three months of the year you use the dam's water for your spray program.
 
-This is how you would create this farm profile:
+This is how you would create this dam profile:
 
 ```{=html}
 <div class="video-container">
@@ -109,7 +109,7 @@ This is how you would create this farm profile:
 ```
 :::
 
-You can view and delete farm profiles in your *Accounts* page.
+You can view and delete dam profiles in your *Accounts* page.
 
 ### Dam water demand
 
@@ -125,7 +125,7 @@ There are also options for you to input other uses which the dam must provide wa
 
 ### Additional water supplies
 
-If you have additional water supplies, you can capture this within your farm profile and this supply is discounted from the amount the dam must provide to meet demand. 
+If you have additional water supplies, you can capture this within your dam profile and this supply is discounted from the amount the dam must provide to meet demand. 
 
 There are options to configure monthly supply from bores or other sources in kL.
 
@@ -135,7 +135,7 @@ Under the *Settings* tab in the navbar, you can create cost profiles. You can vi
 
 A cost profile specifies the costs to build and maintain a dam and catchment. Cost profiles are attached to dam simulations to provide an indication of the costs associated with constructing and building a dam and catchment combination.
 
-The cost profiles are also used in design and comparative analyses; for example, the dam design mode seeks to find the cheapest dam to construct that will be reliable for a given farm profile (demand) and existing catchment. The leaky dam and evaporation reduction analysis modes use the cost profile to assess the cost-benefit of fixing a leaky dam or using evaporation suppression devices (e.g. covers). You would use the cost profile to capture different strategies for fixing leaky dams or reducing evaporation, the different strategies would be reflected in the values attached to the cost profile.
+The cost profiles are also used in design and comparative analyses; for example, the dam design mode seeks to find the cheapest dam to construct that will be reliable for a given dam profile (demand) and existing catchment. The leaky dam and evaporation reduction analysis modes use the cost profile to assess the cost-benefit of fixing a leaky dam or using evaporation suppression devices (e.g. covers). You would use the cost profile to capture different strategies for fixing leaky dams or reducing evaporation, the different strategies would be reflected in the values attached to the cost profile.
 
 Default values are provided based on DPIRD's report on the *Options for Farm Water Supply in a Volatile, Drying Climate*. However, it is recommended that you create custom cost profiles to more accurately reflect your situation.
 

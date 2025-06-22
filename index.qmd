@@ -4,6 +4,8 @@ title: "Water Evaluation Platform"
 
 The Water Evaluation Platform is a web application that provides an interface to dam water modelling tools to explore the performance and costs associated with different dams, roaded catchments, and evaporation treatments.
 
+{{< video https://www.youtube.com/embed/Ic9agD-f10Y?si=3ZG1llAro0FQ0-3k >}}
+
 ## Water Smart Dams
 
 WEP has been developed through the Water Smart Dams project. This project is developing knowledge and tools to help farmers and other water resource managers to make more informed water investment decisions and management decisions to improve the reliability of dam water supplies. 

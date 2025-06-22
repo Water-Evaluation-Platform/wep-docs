@@ -9,7 +9,7 @@ format:
 
 ## Overview
 
-If you sign up for a WEP-platform account, you can save the results of your analyses and visualise them at a later date. You can also create farm profiles, catchment profiles and costs profiles and attach them to your account for use in simulations. The Settings tab in the navbar contains all account and user management tools.
+If you sign up for a WEP-platform account, you can save the results of your analyses and visualise them at a later date. You can also create dam profiles, catchment profiles and costs profiles and attach them to your account for use in simulations. The Settings tab in the navbar contains all account and user management tools.
 
 :::{.callout-tip}
 Sign up for a WEP-platform account at https://waterevaluationplatform.app/dam 

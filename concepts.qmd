@@ -20,19 +20,19 @@ For more details describing the catchment models, head to the [user guide](user-
 
 ![Schematic of catchments generating runoff into the dam](img/concepts/wep-concepts-inflows.jpg)
 
-## Farm profiles
+## Dam profiles
 
-Each dam simulation is assigned a farm profile. The farm profile represents water extraction from the dam considering daily livestock drinking rates, spray requirements, irrigation, and other water uses. The farm profile also lets users configure other water sources, such as bore supply, that are combined with dam water to meet overall water demand. 
+Each dam simulation is assigned a dam profile. The dam profile represents water extraction from the dam considering daily livestock drinking rates, spray requirements, irrigation, and other water uses. The dam profile also lets users configure other water sources, such as bore supply, that are combined with dam water to meet overall water demand. 
 
-The farm profile can be used to describe a range of on-farm and off-farm non-potable water requirements. It is possible to configure farm profiles so that the WEP platform can be used to simulate the performance of dams off-farm, such as town dams providing irrigation water for public green spaces. The farm profile, daily evaporation, and whether the dam is leaky or not determines the daily outflows from the dam.
+The dam profile can be used to describe a range of on-farm and off-farm non-potable water requirements. It is possible to configure dam profiles so that the WEP platform can be used to simulate the performance of dams off-farm, such as town dams providing irrigation water for public green spaces. The dam profile, daily evaporation, and whether the dam is leaky or not determines the daily outflows from the dam.
 
-For more details describing farm profiles, head to the [user guide](user-guide/profiles.qmd#farm-profiles).
+For more details describing dam profiles, head to the [user guide](user-guide/profiles.qmd#dam-profiles).
 
 ![Schematic of different sources of water extraction and losses from the dam](img/concepts/wep-concepts-outflows.jpg)
 
 ## Dam reliability and performance
 
-The reliability of the dam is computed as the percentage of months during the lifetime of a specified simulation that there was sufficient water in the dam to meet demand, as specified by the farm profile.
+The reliability of the dam is computed as the percentage of months during the lifetime of a specified simulation that there was sufficient water in the dam to meet demand, as specified by the dam profile.
 
 ## Cost profiles
 
@@ -42,7 +42,7 @@ For more details describing cost profiles, head to the [user guide](user-guide/p
 
 ## Analysis modes
 
-WEP provides a range of analysis modes. All of the analysis modes are based on the above described model of dam simulations, catchment profiles, farm profiles and costs profiles:
+WEP provides a range of analysis modes. All of the analysis modes are based on the above described model of dam simulations, catchment profiles, dam profiles and costs profiles:
 
 * **Dam and catchment simulation**: Simulate a dam's performance and water demand using historical weather data.
 * **Dam design**: Find the optimum and cheapest reliable dam for your catchment and water demand.

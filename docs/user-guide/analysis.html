@@ -199,6 +199,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="dam-and-catchment-simulation" class="level2">
 <h2 class="anchored" data-anchor-id="dam-and-catchment-simulation">Dam and catchment simulation</h2>
 <p>Use this tool to simulate a dam’s performance using historical weather data and custom farm water uses and catchments.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/RyLkn3P05jg?si=rFGHYvsFk19_B0Mx" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -213,7 +214,7 @@ Simulation configuration
 <ul>
 <li><strong>Sim configuration:</strong> If you have already used these simulation configuration parameters, you can load them and populate the form from the server.</li>
 <li><strong>Name:</strong> Give your simulation a descriptive name, this will help you identify it in your account and load the results later.</li>
-<li><strong>Farm profile:</strong> Select a farm profile, this describes the water demand placed on the dam (e.g.&nbsp;by livestock drinking or spray requirements).</li>
+<li><strong>Dam profile:</strong> Select a dam profile, this describes the water demand placed on the dam (e.g.&nbsp;by livestock drinking or spray requirements).</li>
 <li><strong>Dam costs:</strong> Select a costs profile, this is used to estimate the costs of constructing and maintaining the dam and catchment configuration.</li>
 <li><strong>Simulation duration:</strong> Use the date pickers to set the date range to run the simulation for. To do a good job at representing a dam’s reliability, it is best to select a relatively long time period (e.g.&nbsp;greater than 20 years).</li>
 <li><strong>Dam location:</strong> Click on the map to locate the dam, this is used to fetch historical weather data to run your simulation.</li>
@@ -226,7 +227,8 @@ Simulation configuration
 </section>
 <section id="dam-design" class="level2">
 <h2 class="anchored" data-anchor-id="dam-design">Dam design</h2>
-<p>The smallest reliable dam was identified by iteratively searching through simulations with different dam morphometries and assessing their performance in terms of providing sufficient water to meet demand as defined by the farm profile.</p>
+<p>The smallest reliable dam was identified by iteratively searching through simulations with different dam morphometries and assessing their performance in terms of providing sufficient water to meet demand as defined by the dam profile.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/ya3ZBDWxD9k?si=DZq_xZE0d_0X8h6q" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -237,12 +239,12 @@ Analysis configuration
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Configure the analysis using the widgets in the sidebar.</p>
+<p>Configure the analysis using the widgets in the sidebar. You will get an email notification when your dam design analysis is complete and ready for viewing in your account.</p>
 <ul>
 <li><strong>Sim configuration:</strong> If you have already used these simulation configuration parameters, you can load them and populate the form from the server.</li>
 <li><strong>Name:</strong> Give your analysis a descriptive name, this will help you identify it in your account and load the results later.</li>
 <li><strong>Dam design configuration:</strong> Set the desired dam reliability, the analysis will try and identify the smallest dam that meets this reliability tolerance. The reliability refers to the percentage of months that a dam meets demand over the lifetime of a simulation. The number of optimisation search steps refers to the number searches the algorithm will perform looking for the cheapest reliable dam. The maximum depth configures the maximum depth that algorithm will search for dams to.</li>
-<li><strong>Farm profile:</strong> Select a farm profile, this describes the water demand placed on the dam (e.g.&nbsp;by livestock drinking or spray requirements).</li>
+<li><strong>Dam profile:</strong> Select a dam profile, this describes the water demand placed on the dam (e.g.&nbsp;by livestock drinking or spray requirements).</li>
 <li><strong>Dam costs:</strong> Select a costs profile, this is used to estimate the costs of constructing and maintaining the dam and catchment configuration.</li>
 <li><strong>Simulation duration:</strong> Use the date pickers to set the date range to run the simulation for. To do a good job at representing a dam’s reliability, it is best to select a relatively long time period (e.g.&nbsp;greater than 20 years).</li>
 <li><strong>Dam location:</strong> Click on the map to locate the dam, this is used to fetch historical weather data to run your analysis.</li>
@@ -253,7 +255,8 @@ Analysis configuration
 </section>
 <section id="catchment-analysis" class="level2">
 <h2 class="anchored" data-anchor-id="catchment-analysis">Catchment analysis</h2>
-<p>For the specified dam morphometry, farm profile and observed weather, a series of simulations are run searching for the smallest reliable catchment across different catchment types.</p>
+<p>For the specified dam morphometry, dam profile and observed weather, a series of simulations are run searching for the smallest reliable catchment across different catchment types. You will get an email notification when your catchment analysis is complete and ready for viewing in your account.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/KvuWrzGlKb4?si=S-PvVmTjpA871jKB" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -269,7 +272,7 @@ Analysis configuration
 <li><strong>Sim configuration:</strong> If you have already used these simulation configuration parameters, you can load them and populate the form from the server.</li>
 <li><strong>Name:</strong> Give your analysis a descriptive name, this will help you identify it in your account and load the results later.</li>
 <li><strong>Catchment analysis configuration:</strong> Set the desired dam reliability, the analysis will try and identify the smallest catchment that meets this reliability tolerance. The reliability refers to the percentage of months that a dam meets demand over the lifetime of a simulation. The number of optimisation search steps refers to the number searches the algorithm will perform looking for the smallest reliable catchment.</li>
-<li><strong>Farm profile:</strong> Select a farm profile, this describes the water demand placed on the dam (e.g.&nbsp;by livestock drinking or spray requirements).</li>
+<li><strong>Dam profile:</strong> Select a Dam profile, this describes the water demand placed on the dam (e.g.&nbsp;by livestock drinking or spray requirements).</li>
 <li><strong>Simulation duration:</strong> Use the date pickers to set the date range to run the simulation for. To do a good job at representing a dam’s reliability, it is best to select a relatively long time period (e.g.&nbsp;greater than 20 years).</li>
 <li><strong>Dam location:</strong> Click on the map to locate the dam, this is used to fetch historical weather data to run your analysis.</li>
 <li><strong>Dam morphometry:</strong> Use the sliders to specify the dam morphometry. This sets the surface area and volume of the dam.</li>
@@ -281,6 +284,7 @@ Analysis configuration
 <section id="leaky-dam-analysis" class="level2">
 <h2 class="anchored" data-anchor-id="leaky-dam-analysis">Leaky dam analysis</h2>
 <p>Use this tool to analyse the effect of fixing a leaky dam. The effect on the dam’s ability to supply water and the costs of fixing the dam are considered. The tool presents a comparison of dam performance with and without fixing leaks computing the differences in dam reliability (% of months the dam meets water demand) and the cost of water generated by fixing the dam.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/2BZenM1AjFA?si=7yfIywsWilEmubkU" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -295,7 +299,7 @@ Analysis configuration
 <ul>
 <li><strong>Sim configuration:</strong> If you have already used these simulation configuration parameters, you can load them and populate the form from the server.</li>
 <li><strong>Name:</strong> Give your simulation a descriptive name, this will help you identify it in your account and load the results later.</li>
-<li><strong>Farm profile:</strong> Select a farm profile, this describes the water demand placed on the dam (e.g.&nbsp;by livestock drinking or spray requirements).</li>
+<li><strong>Dam profile:</strong> Select a Dam profile, this describes the water demand placed on the dam (e.g.&nbsp;by livestock drinking or spray requirements).</li>
 <li><strong>Dam costs:</strong> Select a costs profile, this is used to estimate the costs of fixing the leaky dam and computing the value of water saved by fixing the dam.</li>
 <li><strong>Simulation duration:</strong> Use the date pickers to set the date range to run the simulation for. To do a good job at representing a dam’s reliability, it is best to select a relatively long time period (e.g.&nbsp;greater than 20 years).</li>
 <li><strong>Dam location:</strong> Click on the map to locate the dam, this is used to fetch historical weather data to run your simulation.</li>
@@ -309,6 +313,7 @@ Analysis configuration
 <section id="evaporation-reduction-analysis" class="level2">
 <h2 class="anchored" data-anchor-id="evaporation-reduction-analysis">Evaporation reduction analysis</h2>
 <p>Use this analysis tool to assess the effect of using covers to reduce evaporation from a dam. You can specify how effective evaporation covers are. The effect of covering a dam on the dam’s ability to supply water and the costs of evaporation covers are considered. The tool presents a comparison of dam performance with and without evaporation covers computing the differences in dam reliability (% of months the dam meets water demand) and the cost of water generated by covering the dam.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/H_EWrXrXIKQ?si=vdGWg-woQd8WbzbQ" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -324,7 +329,7 @@ Analysis configuration
 <li><strong>Sim configuration:</strong> If you have already used these simulation configuration parameters, you can load them and populate the form from the server.</li>
 <li><strong>Name:</strong> Give your simulation a descriptive name, this will help you identify it in your account and load the results later.</li>
 <li><strong>Evaporation covers:</strong> Enter the percentage reduction of evaporation provided by the covers that you are analysing.</li>
-<li><strong>Farm profile:</strong> Select a farm profile, this describes the water demand placed on the dam (e.g.&nbsp;by livestock drinking or spray requirements).</li>
+<li><strong>Dam profile:</strong> Select a dam profile, this describes the water demand placed on the dam (e.g.&nbsp;by livestock drinking or spray requirements).</li>
 <li><strong>Dam costs:</strong> Select a costs profile, this is used to estimate the costs of covering the dam and computing the value of water saved by the evaporation covers.</li>
 <li><strong>Simulation duration:</strong> Use the date pickers to set the date range to run the simulation for. To do a good job at representing a dam’s reliability, it is best to select a relatively long time period (e.g.&nbsp;greater than 20 years).</li>
 <li><strong>Dam location:</strong> Click on the map to locate the dam, this is used to fetch historical weather data to run your simulation.</li>

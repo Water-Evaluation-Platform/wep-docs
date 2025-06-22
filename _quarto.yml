@@ -34,10 +34,9 @@ website:
           href: user-guide/analysis.qmd
 
   page-footer: 
-    center:
-      - text: Water Evaluation Platform
+    center: |
+      ![](img/WEP-landscape.png){fig-alt="WEP" height=70px }
     left: |
-      ![](img/cwss_logo.png){fig-alt="CWSS" height=50px width=50px}
     right:
       - text: <i class="bi bi-envelope"></i>
         url: "mailto:cwss@uwa.edu.au"

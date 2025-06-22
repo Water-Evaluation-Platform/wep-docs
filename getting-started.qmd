@@ -19,7 +19,7 @@ In this tutorial, we'll simulate the effect of adding a 0.45 ha plastic PVC grai
 
 ## Create a WEP account
 
-To access the full range of WEP features, sign up for an account. Creating an account lets you save the results of analyses to view them at a later date and to create custom farm, catchment and cost profiles to reuse across analysis modes.
+To access the full range of WEP features, sign up for an account. Creating an account lets you save the results of analyses to view them at a later date and to create custom dam, catchment and cost profiles to reuse across analysis modes.
 
 To create a WEP account head to *Settings* in the navbar and select *Sign up*.
 
@@ -29,21 +29,21 @@ Then fill out the sign up form. You can find more information about WEP accounts
 
 ![Complete the sign up form](img/getting-started/signup.jpg)
 
-## Create a farm profile
+## Create a dam profile   
 
-Farm profiles describe the demand placed on dam water. You can configure farm profiles to capture livestock drinking requirements, spray requirements, irrigation water requirements and other uses. 
+Dam profiles describe the demand placed on dam water. You can configure dam profiles to capture livestock drinking requirements, spray requirements, irrigation water requirements and other uses. 
 
 If your dam is one part of the non-potable water supply mix, you can also configure other water supplies, such as bores, to add to the dam water. 
 
-To create a farm profile, go to *Settings* in the navbar and select *Farm profiles*. You then need to give the farm profile a name and then fill out the web form describing the demand placed on the dam water. Click on each of the sections to bring up the form widgets. Here, we only have 800 sheep using the dam for drinking in January, February and March so we add that to the form. WEP will use daily temperature data to compute a drinking rate for these sheep for each day that a dam simulation runs for. 
+To create a dam profile, go to *Settings* in the navbar and select *dam profiles*. You then need to give the dam profile a name and then fill out the web form describing the demand placed on the dam water. Click on each of the sections to bring up the form widgets. Here, we only have 800 sheep using the dam for drinking in January, February and March so we add that to the form. WEP will use daily temperature data to compute a drinking rate for these sheep for each day that a dam simulation runs for. 
 
-```{=html}
-<div class="video-container">
-    <iframe class="responsive-iframe" src="https://drive.google.com/file/d/16uxrC8xv8UmGZJj7Zo8Z1-prtBuI9Jl0/preview" allow="autoplay"></iframe>
-</div>
-```
+![Load the dam profile creation form](img/getting-started/dam-profile-1.jpg)
 
-Head to the [user guide](user-guide/profiles.qmd#farm-profiles) to find more details on configuring profiles.
+![Create a dam profile](img/getting-started/dam-profile-2.jpg)
+
+<p></p>
+
+Head to the [user guide](user-guide/profiles.qmd#dam-profiles) to find more details on configuring profiles.
 
 ## Create a catchment profile
 
@@ -60,11 +60,9 @@ To create a catchment profile, go to *Settings* in the navbar and select *Catchm
 
 Here, we'll create a catchment profile to simulate a PVC grain tarp surface. First, we need to locate the catchment on the landscape (this step is required so in future iterations of the tool we can provide functionality to look up catchment properties from geospatial layers). The catchment has a runoff threshold of 1 mm (all rainfall greater than 1 mm has potential to runoff) and a runoff coefficient of 70 % (the % of runoff that reaches the dam). Enter these values in the form widgets in the sidebar and then click *Save catchment profile*. This will save the catchment profile to your account. 
 
-```{=html}
-<div class="video-container">
-    <iframe class="responsive-iframe" src="https://drive.google.com/file/d/16pwesMPt4OGCOVzCI8XKA39gcld1rmVs/preview" allow="autoplay"></iframe>
-</div>
-```
+![Load the catchment profile creation form](img/getting-started/catchment-profile-1.jpg)
+
+![Create a catchment profile](img/getting-started/catchment-profile-2.jpg) 
 
 
 To find out more information about creating catchment profiles in WEP head to the [user guide](user-guide/profiles.qmd#catchment-profiles). 
@@ -101,9 +99,9 @@ To create a cost profile, go to *Settings* in the navbar and select *Costs profi
 * **Evaporation treatment cover cost ($ / m²):** 12.5
 * **Interest rate (%):** 0.05
 
-![Access the cost profile form via the Settings menu](img/getting-started/settings-menu-cost-profile.jpg)
+![Access the cost profile form via the Settings menu](img/getting-started/cost-profile-1.jpg)
 
-![Fill out the cost profile form and save the profile to your account](img/getting-started/cost-profile-form.jpg)
+![Fill out the cost profile form and save the profile to your account](img/getting-started/cost-profile-2.jpg)
 
 For more details on creating cost profiles, head to the [user-guide](user-guide/profiles.qmd#cost-profiles).
 
@@ -113,11 +111,7 @@ Here, we'll run a dam and catchment simulation to explore the reliability of the
 
 We can select the *Dam and catchment* analysis mode from the *Tools* in the navbar or scrolling down on the app landing page. 
 
-```{=html}
-<div class="video-container">
-    <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1eY9bglfhco8IJS1YG3QuqVk90yAIA81x/preview" allow="autoplay"></iframe>
-</div>
-```
+![Select Dam and catchment analysis](img/getting-started/analysis-tools-1.jpg) 
 
 ## Configure your analysis
 
@@ -125,24 +119,20 @@ All of the WEP analysis modes have similar user interfaces to configure simulati
 
 To start, you can use the *search* tool in the top right of the map display to navigate the map to the region we're working in. Once we're broadly in the right place, we can pan and zoom on the map to locate the dam. As you click on the map you will see a blue marker, centre this on the dam. This marker helps you stay oriented on the map and is also the location that's used to fetch weather data to drive the simulation. 
 
-```{=html}
-<div class="video-container">
-    <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1D9vbTP7bxq645JEM9GyPXPmKexFBY48f/preview" allow="autoplay"></iframe>
-</div>
-```
+![Locate the dam and catchment you want to simulate in the map display](img/getting-started/locate-dam-1.jpg) 
 
 Next, we need to configure the simulation by filling in the form fields on the left hand sidebar. Use the following values:
 
 * **Sim configuration:** Leave this as `New config` as we have not got pre-saved values for this simulation to use here. 
 * **Name:** Give your simulation a descriptive name (e.g. `Merredin plastic PVC catchment`).
-* **Farm profile:** Select a farm profile; this should be the one we created earlier which was called `Getting started demo`.
+* **Dam profile:** Select a dam profile; this should be the one we created earlier which was called `Getting started demo`.
 * **Dam costs:** Select a costs profile, this should be the one we created earlier which was called `Getting started demo (plastic PVC)`.
 * **Simulation duration:** Pick a suitable date range that you want to simulate dam performance for using the calendar widgets. A longer period (e.g. 20 years) generally gives a better indication of  dam's reliability. 
 * **Dam location:** Click on the map to locate the dam. Make sure the blue marker is in the centre of the dam on the map display. As you move the marker around the map you will see the latitude and longitude values in the form update.
-* **Dam morphometry:** Use the sliders to specify the dam morphometry to set the surface area and volume of the dam. This dam has a surface length of `55 m`, a depth of `5 m`, and slope of `33 %`. 
+* **Dam morphometry:** Use the sliders to specify the dam morphometry to set the surface area and volume of the dam. This is a square dam has a surface length of `55 m`, a depth of `5 m`, and slope of `33 %`. 
 * **Dam water conditions:** Set the starting water level for the dam and check the box if the dam is leaky. We're starting the simulation in January where the dam has lost some water from evaporation, but is not at its driest point. Therefore, set the starting water level to be `60 %`. The dam is not leaky. 
 
-![Use the form widgets on the sidebar to configure your simulation. Click on the arrow for each section to bring up the widgets to enter values](img/getting-started/form-sidebar.jpg)
+![Use the form widgets on the sidebar to configure your simulation. Click on the arrow for each section to bring up the widgets to enter values](img/getting-started/configure-form-1.jpg)
 
 * **Catchment 1:** Use the map drawing tools to delineate the plastic PVC tarp catchment on the map as catchment 1. Under *Catchment 1* click on the *draw* button to bring up the drawing tools and then draw out the catchment on the map. Use the dropdown list the select the catchment type as *Getting started demo*. 
 
@@ -196,6 +186,6 @@ Under the *Projects* dropdown list you can switch through different analysis mod
 
 ![Use the dropdown list to see saved results from different analysis modes](img/getting-started/accounts-analysis-modes.jpg)
 
-Under the *Profiles* dropdown list you can bring up summaries of farm, catchment and cost profiles saved to your account. 
+Under the *Profiles* dropdown list you can bring up summaries of dam, catchment and cost profiles saved to your account. 
 
-![Use the dropdown list to see summaries of farm, catchment and cost profiles saved to your account](img/getting-started/accounts-analysis-modes.jpg)
+![Use the dropdown list to see summaries of dam, catchment and cost profiles saved to your account](img/getting-started/accounts-analysis-modes.jpg)

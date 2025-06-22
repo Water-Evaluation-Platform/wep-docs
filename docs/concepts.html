@@ -127,7 +127,7 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#dam-simulations" id="toc-dam-simulations" class="nav-link active" data-scroll-target="#dam-simulations">Dam simulations</a></li>
   <li><a href="#catchment-profiles" id="toc-catchment-profiles" class="nav-link" data-scroll-target="#catchment-profiles">Catchment profiles</a></li>
-  <li><a href="#farm-profiles" id="toc-farm-profiles" class="nav-link" data-scroll-target="#farm-profiles">Farm profiles</a></li>
+  <li><a href="#dam-profiles" id="toc-dam-profiles" class="nav-link" data-scroll-target="#dam-profiles">Dam profiles</a></li>
   <li><a href="#dam-reliability-and-performance" id="toc-dam-reliability-and-performance" class="nav-link" data-scroll-target="#dam-reliability-and-performance">Dam reliability and performance</a></li>
   <li><a href="#cost-profiles" id="toc-cost-profiles" class="nav-link" data-scroll-target="#cost-profiles">Cost profiles</a></li>
   <li><a href="#analysis-modes" id="toc-analysis-modes" class="nav-link" data-scroll-target="#analysis-modes">Analysis modes</a></li>
@@ -180,11 +180,11 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 </section>
-<section id="farm-profiles" class="level2">
-<h2 class="anchored" data-anchor-id="farm-profiles">Farm profiles</h2>
-<p>Each dam simulation is assigned a farm profile. The farm profile represents water extraction from the dam considering daily livestock drinking rates, spray requirements, irrigation, and other water uses. The farm profile also lets users configure other water sources, such as bore supply, that are combined with dam water to meet overall water demand.</p>
-<p>The farm profile can be used to describe a range of on-farm and off-farm non-potable water requirements. It is possible to configure farm profiles so that the WEP platform can be used to simulate the performance of dams off-farm, such as town dams providing irrigation water for public green spaces. The farm profile, daily evaporation, and whether the dam is leaky or not determines the daily outflows from the dam.</p>
-<p>For more details describing farm profiles, head to the <a href="./user-guide/profiles.html#farm-profiles">user guide</a>.</p>
+<section id="dam-profiles" class="level2">
+<h2 class="anchored" data-anchor-id="dam-profiles">Dam profiles</h2>
+<p>Each dam simulation is assigned a dam profile. The dam profile represents water extraction from the dam considering daily livestock drinking rates, spray requirements, irrigation, and other water uses. The dam profile also lets users configure other water sources, such as bore supply, that are combined with dam water to meet overall water demand.</p>
+<p>The dam profile can be used to describe a range of on-farm and off-farm non-potable water requirements. It is possible to configure dam profiles so that the WEP platform can be used to simulate the performance of dams off-farm, such as town dams providing irrigation water for public green spaces. The dam profile, daily evaporation, and whether the dam is leaky or not determines the daily outflows from the dam.</p>
+<p>For more details describing dam profiles, head to the <a href="./user-guide/profiles.html#dam-profiles">user guide</a>.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="img/concepts/wep-concepts-outflows.jpg" class="img-fluid figure-img"></p>
@@ -194,7 +194,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="dam-reliability-and-performance" class="level2">
 <h2 class="anchored" data-anchor-id="dam-reliability-and-performance">Dam reliability and performance</h2>
-<p>The reliability of the dam is computed as the percentage of months during the lifetime of a specified simulation that there was sufficient water in the dam to meet demand, as specified by the farm profile.</p>
+<p>The reliability of the dam is computed as the percentage of months during the lifetime of a specified simulation that there was sufficient water in the dam to meet demand, as specified by the dam profile.</p>
 </section>
 <section id="cost-profiles" class="level2">
 <h2 class="anchored" data-anchor-id="cost-profiles">Cost profiles</h2>
@@ -203,7 +203,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="analysis-modes" class="level2">
 <h2 class="anchored" data-anchor-id="analysis-modes">Analysis modes</h2>
-<p>WEP provides a range of analysis modes. All of the analysis modes are based on the above described model of dam simulations, catchment profiles, farm profiles and costs profiles:</p>
+<p>WEP provides a range of analysis modes. All of the analysis modes are based on the above described model of dam simulations, catchment profiles, dam profiles and costs profiles:</p>
 <ul>
 <li><strong>Dam and catchment simulation</strong>: Simulate a dam’s performance and water demand using historical weather data.</li>
 <li><strong>Dam design</strong>: Find the optimum and cheapest reliable dam for your catchment and water demand.</li>
