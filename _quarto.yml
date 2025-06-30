@@ -16,6 +16,8 @@ website:
         text: User guide
       - href: case-studies.qmd
         text: Case studies
+      - href: faq.qmd
+        text: FAQ
       - href: https://waterevaluationplatform.app/dam
         text: WEP app
   
