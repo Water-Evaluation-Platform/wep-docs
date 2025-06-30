@@ -36,6 +36,10 @@ You can use WEP to simulate the long-run performance of an existing dam, explore
 
 WEP provides a suite of analysis modes to optimise dam size, design roaded catchments to ensure sufficient runoff is generated, and assess the costs and benefits of fixing leaky dams and using evaporation covers. 
 
+## FAQ
+
+For a series of commonly asked questions about WEP, check out the <a href="https://github.com/Water-Evaluation-Platform/wep-docs/raw/main/pdfs/Water Evaluation Platform - Frequently Asked Questions.pdf" target="_blank">FAQs</a>.
+
 ## Next steps
 
 Explore the concepts, modelling tools, and analysis modes that comprise WEP. Head to [concepts](concepts.qmd).  

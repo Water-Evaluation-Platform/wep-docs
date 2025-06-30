@@ -1,70 +1,205 @@
 [
   {
-    "objectID": "case-studies.html",
-    "href": "case-studies.html",
-    "title": "Case studies",
+    "objectID": "getting-started.html",
+    "href": "getting-started.html",
+    "title": "Getting started",
     "section": "",
-    "text": "COMING SOON!"
+    "text": "This tutorial demonstrates how to get up and running using the Water Evaluation Platform to simulate dam performance and to perform a suite of analytics that guide optimising dam and catchments to meet water demand.\nTo get started, head to https://waterevaluationplatform.app/dam.\nIn this tutorial, we’ll simulate the effect of adding a 0.45 ha plastic PVC grain tarp catchment to a dam that provides drinking water for sheep in the summer months. In January, February and March, 800 sheep drink from the dam. The dam is situated near Merredin, Western Australia. This is a illustrative scenario used to demonstrate WEP features."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Water Evaluation Platform",
+    "objectID": "getting-started.html#create-a-wep-account",
+    "href": "getting-started.html#create-a-wep-account",
+    "title": "Getting started",
+    "section": "Create a WEP account",
+    "text": "Create a WEP account\nTo access the full range of WEP features, sign up for an account. Creating an account lets you save the results of analyses to view them at a later date and to create custom dam, catchment and cost profiles to reuse across analysis modes.\nTo create a WEP account head to Settings in the navbar and select Sign up.\n\n\n\nAccess the Sign up form via the Settings menu\n\n\nThen fill out the sign up form. You can find more information about WEP accounts and how your data is stored and used in the Accounts section of the user guide.\n\n\n\nComplete the sign up form"
+  },
+  {
+    "objectID": "getting-started.html#create-a-dam-profile",
+    "href": "getting-started.html#create-a-dam-profile",
+    "title": "Getting started",
+    "section": "Create a dam profile",
+    "text": "Create a dam profile\nDam profiles describe the demand placed on dam water. You can configure dam profiles to capture livestock drinking requirements, spray requirements, irrigation water requirements and other uses.\nIf your dam is one part of the non-potable water supply mix, you can also configure other water supplies, such as bores, to add to the dam water.\nTo create a dam profile, go to Settings in the navbar and select dam profiles. You then need to give the dam profile a name and then fill out the web form describing the demand placed on the dam water. Click on each of the sections to bring up the form widgets. Here, we only have 800 sheep using the dam for drinking in January, February and March so we add that to the form. WEP will use daily temperature data to compute a drinking rate for these sheep for each day that a dam simulation runs for.\n\n\n\nLoad the dam profile creation form\n\n\n\n\n\nCreate a dam profile\n\n\n\n\nHead to the user guide to find more details on configuring profiles."
+  },
+  {
+    "objectID": "getting-started.html#create-a-catchment-profile",
+    "href": "getting-started.html#create-a-catchment-profile",
+    "title": "Getting started",
+    "section": "Create a catchment profile",
+    "text": "Create a catchment profile\nYou can create custom catchment profiles to describe the runoff generating capacity of a roaded or natural catchment that drains into your dam. Currently, in WEP there two types of catchment models:\n\nA runoff threshold-style catchment model that generates runoff for all rain events greater than a threshold.\nBare earth and vegetated catchment models that keep a memory of soil moisture and generate runoff when the soil is saturated.\n\nWith both types of catchment models, depending on how you configure the profile, you can simulate a range of catchments including bitumen, plastic, bare earth with various soil types, and natural catchments.\nA range of catchment profiles, broadly representative of catchments found across south west Western Australia, are pre-loaded in the app. These are a good place to start if you are unsure of the properties of the catchment you want to simulate or if you want to explore how runoff generation, and subsequent dam water supply, vary with different catchment surfaces.\nTo create a catchment profile, go to Settings in the navbar and select Catchment profiles. You then need to fill out the web form in the sidebar with values that represent the catchment you wish to model and its capacity to generate runoff.\nHere, we’ll create a catchment profile to simulate a PVC grain tarp surface. First, we need to locate the catchment on the landscape (this step is required so in future iterations of the tool we can provide functionality to look up catchment properties from geospatial layers). The catchment has a runoff threshold of 1 mm (all rainfall greater than 1 mm has potential to runoff) and a runoff coefficient of 70 % (the % of runoff that reaches the dam). Enter these values in the form widgets in the sidebar and then click Save catchment profile. This will save the catchment profile to your account.\n\n\n\nLoad the catchment profile creation form\n\n\n\n\n\nCreate a catchment profile\n\n\nTo find out more information about creating catchment profiles in WEP head to the user guide."
+  },
+  {
+    "objectID": "getting-started.html#create-a-costs-profile",
+    "href": "getting-started.html#create-a-costs-profile",
+    "title": "Getting started",
+    "section": "Create a costs profile",
+    "text": "Create a costs profile\nA cost profile specifies the costs to build and maintain a dam and catchment.\nSome pre-loaded indicative costs are provided in the application which are derived from DPIRD’s Options for Farm Water Supply in a Volatile, Drying Climate report. These provide default costs for bare earth roaded catchments, plastic catchments and bitumen catchments. When you use analysis tools in the app you will see them loaded with a format Roaded bare earth (C1) and natural (C2) (see figure below too). This means the first catchment (C1) will use the default roaded bare earth cost profile and the second catchment (C2) will use the default natural cost profile.\n\n\n\nDefault cost profiles pre-loaded in the app\n\n\nIt is recommended that you create your own custom cost profiles to more accurately reflect the costs you would face in building and maintaining a dam and roaded catchment.\n\n\n\n\n\n\nTip\n\n\n\nChat to contractors for current indicative construction costs. You can also create different cost profiles to explore the cost-benefit of different dam and catchment technologies and their capacity to provide a reliable water supply.\n\n\nHere, we’ll create a custom cost profile for building and constructing a plastic PVC tarp catchment using figures obtained from the Water Smart Dams project (for catchment 1) and sensible default values for a natural catchment (catchment 2).\nTo create a cost profile, go to Settings in the navbar and select Costs profiles and fill out the form with the following values.\n\nCosts profile name: Getting started demo (plastic PVC)\nCatchment 1 construction costs ($ / ha): 29,400\nCatchment 1 years of operation: 7\nCatchment 1 maintenance multiplier ($ / ha): 769\nCatchment 2 construction costs ($ / ha): 0\nCatchment 2 years of operation: 50\nCatchment 2 maintenance multiplier ($ / ha): 0\nSilt trap and piped inlet costs ($): 2000\nDam construction costs ($ / m³): 3\nDam site drilling costs ($): 200\nCost to line dam ($ / m²): 12\nEvaporation treatment cover cost ($ / m²): 12.5\nInterest rate (%): 0.05\n\n\n\n\nAccess the cost profile form via the Settings menu\n\n\n\n\n\nFill out the cost profile form and save the profile to your account\n\n\nFor more details on creating cost profiles, head to the user-guide."
+  },
+  {
+    "objectID": "getting-started.html#select-an-analysis-mode",
+    "href": "getting-started.html#select-an-analysis-mode",
+    "title": "Getting started",
+    "section": "Select an analysis mode",
+    "text": "Select an analysis mode\nHere, we’ll run a dam and catchment simulation to explore the reliability of the dam near Merredin with a plastic PVC tarp catchment installed. The dam has to provide drinking water for 800 sheep through summer.\nWe can select the Dam and catchment analysis mode from the Tools in the navbar or scrolling down on the app landing page.\n\n\n\nSelect Dam and catchment analysis"
+  },
+  {
+    "objectID": "getting-started.html#configure-your-analysis",
+    "href": "getting-started.html#configure-your-analysis",
+    "title": "Getting started",
+    "section": "Configure your analysis",
+    "text": "Configure your analysis\nAll of the WEP analysis modes have similar user interfaces to configure simulations and analyses. There are form widgets in the left hand sidebar and a map display to locate the dam on the map and to draw out roaded catchments if required.\nTo start, you can use the search tool in the top right of the map display to navigate the map to the region we’re working in. Once we’re broadly in the right place, we can pan and zoom on the map to locate the dam. As you click on the map you will see a blue marker, centre this on the dam. This marker helps you stay oriented on the map and is also the location that’s used to fetch weather data to drive the simulation.\n\n\n\nLocate the dam and catchment you want to simulate in the map display\n\n\nNext, we need to configure the simulation by filling in the form fields on the left hand sidebar. Use the following values:\n\nSim configuration: Leave this as New config as we have not got pre-saved values for this simulation to use here.\nName: Give your simulation a descriptive name (e.g. Merredin plastic PVC catchment).\nDam profile: Select a dam profile; this should be the one we created earlier which was called Getting started demo.\nDam costs: Select a costs profile, this should be the one we created earlier which was called Getting started demo (plastic PVC).\nSimulation duration: Pick a suitable date range that you want to simulate dam performance for using the calendar widgets. A longer period (e.g. 20 years) generally gives a better indication of dam’s reliability.\nDam location: Click on the map to locate the dam. Make sure the blue marker is in the centre of the dam on the map display. As you move the marker around the map you will see the latitude and longitude values in the form update.\nDam morphometry: Use the sliders to specify the dam morphometry to set the surface area and volume of the dam. This is a square dam has a surface length of 55 m, a depth of 5 m, and slope of 33 %.\nDam water conditions: Set the starting water level for the dam and check the box if the dam is leaky. We’re starting the simulation in January where the dam has lost some water from evaporation, but is not at its driest point. Therefore, set the starting water level to be 60 %. The dam is not leaky.\n\n\n\n\nUse the form widgets on the sidebar to configure your simulation. Click on the arrow for each section to bring up the widgets to enter values\n\n\n\nCatchment 1: Use the map drawing tools to delineate the plastic PVC tarp catchment on the map as catchment 1. Under Catchment 1 click on the draw button to bring up the drawing tools and then draw out the catchment on the map. Use the dropdown list the select the catchment type as Getting started demo.\n\n\n    \n\n\nCatchment 2: Under Catchment 2 set 30 ha of natural catchment draining into the dam. Use the default natural catchment properties here. We do not need to draw this catchment on the map, we can also just enter the catchment area if we know it."
+  },
+  {
+    "objectID": "getting-started.html#run-your-analysis",
+    "href": "getting-started.html#run-your-analysis",
+    "title": "Getting started",
+    "section": "Run your analysis",
+    "text": "Run your analysis\nNow, we’re ready to run the simulation. Click Run simulation at the bottom of the form."
+  },
+  {
+    "objectID": "getting-started.html#explore-your-results",
+    "href": "getting-started.html#explore-your-results",
+    "title": "Getting started",
+    "section": "Explore your results",
+    "text": "Explore your results\nOnce the simulation has finished the results will be displayed as a series of report cards and interactive charts and visualisations.\nOn the left sidebar a summary of simulation results are reported. In particular, the reliability of the dam in terms of the percentage of months the dam met water demand is reported. You can scroll down to view a summary of the costs to build and maintain this dam and catchment.\nThe main panel presents a series of interactive charts providing more details about your simulation results.\n\n\n\nThe simulation results page comprising report cards of key results and interactive charts\n\n\nYou can toggle between three Analysis views that present different interactive charts displaying your simulation results.\nThe Time series view presents time series plots of dam water levels, volume, inflows from the catchment, and evaporation losses.\nThe Dam performance view presents heatmaps showing year by month breakdowns of dam water levels, catchment runoff, evaporation losses, and daily counts of dam failures.\nThe Water demand view presents heatmaps showing year by month break downs of water demand from livestock drinking, spray programs, irrigation, and other water uses.\n\n\n\nHeatmaps provide a year by month break down of dam performance, inflows, evaporation losses and water demand"
+  },
+  {
+    "objectID": "getting-started.html#accounts",
+    "href": "getting-started.html#accounts",
+    "title": "Getting started",
+    "section": "Accounts",
+    "text": "Accounts\nOnce your simulation has finished it will be saved to your account. You can access your account via the Settings in the navbar.\nYou can see a list of saved simulations and analyses and you can click the load sim button to reload the results dashboard.\n\n\n\nView saved simulations and analyses in your account\n\n\nUnder the Projects dropdown list you can switch through different analysis modes to see saved results.\n\n\n\nUse the dropdown list to see saved results from different analysis modes\n\n\nUnder the Profiles dropdown list you can bring up summaries of dam, catchment and cost profiles saved to your account.\n\n\n\nUse the dropdown list to see summaries of dam, catchment and cost profiles saved to your account"
+  },
+  {
+    "objectID": "concepts.html",
+    "href": "concepts.html",
+    "title": "WEP Concepts",
     "section": "",
-    "text": "The Water Evaluation Platform is a web application that provides an interface to dam water modelling tools to explore the performance and costs associated with different dams, roaded catchments, and evaporation treatments."
+    "text": "WEP is based on a daily water balance model that computes the volume, depth and surface area of water in the dam each day and also daily inflows as runoff from roaded and natural catchments and outflows to meet water demands."
   },
   {
-    "objectID": "index.html#water-smart-dams",
-    "href": "index.html#water-smart-dams",
-    "title": "Water Evaluation Platform",
-    "section": "Water Smart Dams",
-    "text": "Water Smart Dams\nWEP has been developed through the Water Smart Dams project. This project is developing knowledge and tools to help farmers and other water resource managers to make more informed water investment decisions and management decisions to improve the reliability of dam water supplies.\nThe Water Smart Dams project is jointly funded through the Australian Government’s Future Drought Fund (FDF) and the Western Australian state government’s Agriculture Climate Resilience Fund (ACRF), supported by the Department of Primary Industries and Regional Development (DPIRD).\nFor more information on the Water Smart Dams project, head to the Grower Group Alliance website.\nThe project has 12 core demonstration sites across Western Australia where various dam and catchment technologies have been installed and their performance in terms of generating a reliable water supply have been monitored. These technologies include renovating existing dams, building various types of roaded catchment, implementing evaporation suppression and runoff technologies."
+    "objectID": "concepts.html#dam-simulations",
+    "href": "concepts.html#dam-simulations",
+    "title": "WEP Concepts",
+    "section": "Dam simulations",
+    "text": "Dam simulations\nThe user specifies the maximum volume and shape of the dam. For example, for a square dam the user would specify the surface length, maximum depth and slope (from surface edge to base edge). Using these parameters WEP will compute daily dam water volumes, water depth and water surface area. The user also specifies whether the dam is leaky or not. Leaky dams lose a fraction of water through the dam sides touching the water body each day.\nFor a user-specified time-period, daily weather data is retrieved from the SILO product and used to drive the simulation. The dam is filled up by rainfall events and water is lost due to evaporation. Morton’s lake evaporation is used to compute evaporation losses.\n\n\n\nSchematic of the daily water balance model that WEP is based on"
   },
   {
-    "objectID": "index.html#water-evaluation-platform-features",
-    "href": "index.html#water-evaluation-platform-features",
-    "title": "Water Evaluation Platform",
-    "section": "Water Evaluation Platform features",
-    "text": "Water Evaluation Platform features\nBuilding on the detailed monitoring of dam and catchment technologies installed on farm demonstration sites, the Water Evaluation Platform (WEP) provides analytics tools to explore the performance of range of dam and catchment technologies across different geographic, farm, and water management contexts.\n\n\n\n\n\n\nUAV capture of the Water Smart Dams Merredin site roaded catchment\n\n\n\n\n\n\n\nSketching out the Merredin site roaded catchment in WEP to simulate its performance\n\n\n\n\n\nWEP has features for simulating dams on farms and dams that are used as part of an off-farm non-potable water supply, such as town dams.\nYou can use WEP to simulate the long-run performance of an existing dam, explore how an existing dam would perform with a different water demand scenario, or explore the reliability of hypothetical dam and water demands in a new location.\n\n\n\n\nSimulating runoff from the Water Smart Dams plastic Wandell catchment and comparing WEP model runoff to ground truth monitoring on-site\n\n\nWEP provides a suite of analysis modes to optimise dam size, design roaded catchments to ensure sufficient runoff is generated, and assess the costs and benefits of fixing leaky dams and using evaporation covers."
+    "objectID": "concepts.html#catchment-profiles",
+    "href": "concepts.html#catchment-profiles",
+    "title": "WEP Concepts",
+    "section": "Catchment profiles",
+    "text": "Catchment profiles\nThe daily water balance model is linked to a catchment model that determines how much runoff is generated and flows into the dam after rainfall events. The catchment profile parameterises the model describing the area, surface type and hydraulic properties of the catchment. Users can create custom catchment profiles or use preset catchments that are representative of common roaded catchments found in Western Australia. The parameter values for the representative Western Australian catchments were derived from monitoring of actual roaded catchments and analysis undertaken by the Water Smart Dams project.\nFor more details describing the catchment models, head to the user guide.\n\n\n\nSchematic of catchments generating runoff into the dam"
   },
   {
-    "objectID": "index.html#next-steps",
-    "href": "index.html#next-steps",
-    "title": "Water Evaluation Platform",
+    "objectID": "concepts.html#dam-profiles",
+    "href": "concepts.html#dam-profiles",
+    "title": "WEP Concepts",
+    "section": "Dam profiles",
+    "text": "Dam profiles\nEach dam simulation is assigned a dam profile. The dam profile represents water extraction from the dam considering daily livestock drinking rates, spray requirements, irrigation, and other water uses. The dam profile also lets users configure other water sources, such as bore supply, that are combined with dam water to meet overall water demand.\nThe dam profile can be used to describe a range of on-farm and off-farm non-potable water requirements. It is possible to configure dam profiles so that the WEP platform can be used to simulate the performance of dams off-farm, such as town dams providing irrigation water for public green spaces. The dam profile, daily evaporation, and whether the dam is leaky or not determines the daily outflows from the dam.\nFor more details describing dam profiles, head to the user guide.\n\n\n\nSchematic of different sources of water extraction and losses from the dam"
+  },
+  {
+    "objectID": "concepts.html#dam-reliability-and-performance",
+    "href": "concepts.html#dam-reliability-and-performance",
+    "title": "WEP Concepts",
+    "section": "Dam reliability and performance",
+    "text": "Dam reliability and performance\nThe reliability of the dam is computed as the percentage of months during the lifetime of a specified simulation that there was sufficient water in the dam to meet demand, as specified by the dam profile."
+  },
+  {
+    "objectID": "concepts.html#cost-profiles",
+    "href": "concepts.html#cost-profiles",
+    "title": "WEP Concepts",
+    "section": "Cost profiles",
+    "text": "Cost profiles\nSimulations can be run with a costs profile. A costs profile is a record of costs associated with constructing and maintaining dams and roaded catchments. Indicative default costs are provided to all users. However, users with an account can, and should, create their own costs profiles.\nFor more details describing cost profiles, head to the user guide."
+  },
+  {
+    "objectID": "concepts.html#analysis-modes",
+    "href": "concepts.html#analysis-modes",
+    "title": "WEP Concepts",
+    "section": "Analysis modes",
+    "text": "Analysis modes\nWEP provides a range of analysis modes. All of the analysis modes are based on the above described model of dam simulations, catchment profiles, dam profiles and costs profiles:\n\nDam and catchment simulation: Simulate a dam’s performance and water demand using historical weather data.\nDam design: Find the optimum and cheapest reliable dam for your catchment and water demand.\nCatchment analysis: Find the optimum and cheapest reliable catchment surface and area for your water demand.\nLeaky dam analysis: Fix a leaky dam and see how dam performance improves and compute the cost-benefit of fixing the leak.\nEvaporation reduction analysis: Cover a dam and see how dam performance improves and compute the cost-benefit of putting evaporation covers on the dam.\n\nFor more details describing the analysis modes, head to the user guide."
+  },
+  {
+    "objectID": "concepts.html#next-steps",
+    "href": "concepts.html#next-steps",
+    "title": "WEP Concepts",
     "section": "Next steps",
-    "text": "Next steps\nExplore the concepts, modelling tools, and analysis modes that comprise WEP. Head to concepts."
+    "text": "Next steps\nTry out the Water Evaluation Platform by following the Getting started guide."
   },
   {
-    "objectID": "user-guide/accounts.html",
-    "href": "user-guide/accounts.html",
-    "title": "Accounts",
+    "objectID": "user-guide/profiles.html",
+    "href": "user-guide/profiles.html",
+    "title": "Profiles",
     "section": "",
-    "text": "If you sign up for a WEP-platform account, you can save the results of your analyses and visualise them at a later date. You can also create dam profiles, catchment profiles and costs profiles and attach them to your account for use in simulations. The Settings tab in the navbar contains all account and user management tools.\n\n\n\n\n\n\nTip\n\n\n\nSign up for a WEP-platform account at https://waterevaluationplatform.app/dam",
+    "text": "Depending on how you configure the catchment profile, there are various ways that you can model catchments and simulate runoff from them after precipitation events.\nFor each simulation, you can configure two catchments mix models used to generate runoff from catchments. For example, you could set catchment 1 to be a small roaded catchment using a runoff threshold-style catchment model and you could set catchment 2 to be a larger vegetated catchment where your catchment model accounts for evapotranspiration losses.\n\n\nRunoff threshold-style models daily runoff from the catchment if rainfall exceeded a runoff threshold, all rainfall above the threshold runs into the dam.\nTo use runoff threshold-style catchments you can set the depth to the confining layer to 0 (this effectively prevents the catchment from storing moisture) and set an appropriate runoff threshold. You can optionally set a runoff coefficient where a percentage of precipitation exceeding the runoff threshold actually runs off into the dam.\n\n\n\n\n\n\nModelling runoff from a plastic catchment\n\n\n\nYou would like to model runoff from a catchment that you have covered in plastic sheeting. You know the plastic covered catchment generates runoff for precipitation events greater than 1 mm and 80% of precipitation greater than 1 mm runs off into the dam.\nThis is how you would configure this catchment profile:\n\n    \n\n\n\n\n\n\nIt is possible to simulate runoff from bare earth catchments that store soil moisture and retain memory of soil moisture levels. Here, the evaporating bare earth catchments are based on a model by Allen et al. (2005), which is a two-stage model.\nThe first stage of the model is when evaporation is energy limited and the soil provides enough moisture to meet evaporative demand. There is a constant amount evaporation between field capacity and a point where all readily available water has been evaporated.\nThe second stage of the model is soil limited, where soil hydraulic properties and conditions limit the amount of moisture that can be moved to the surface for evaporation. The rate of evaporation from the soil linearly decreases with soil moisture to a point where no more soil moisture can be evaporated (half the wilting point, following Allen et al. (2005)). You can set the depth and porosity of the soil to determine how much moisture the catchment can store. Any precipitation events that exceed the catchment’s storage capacity and infiltration capacity will runoff.\n\n\n\n\n\n\nParameter definitions for bare earth catchments\n\n\n\nYou can obtain these parameters from the literature, from geospatial soil properties products or via estimation using pedotransfer functions.\n\nSoil depth to confining layer (m): The depth of soil available to store moisture.\nPorosity (%): The percentage of the soil volume comprising pores.\nField capacity (%): The maximum amount of water the soil can hold after drainage.\nReadily evaporable water (%): The point where evaporation from the soil stops being energy limited (soil moisture units %).\nWilting point (%): Level of soil moisture where plants cannot extract water (soil moisture units %).\nHygroscopic point (%): Level of soil moisture where there is no more evaporation. Set this to 0. The hygroscopic point is estimated as half the wilting point.\nInitial soil moisture (%): The initial soil moisture at the start of a simulation.\nInfiltration capacity / runoff threshold (mm / timestep): The maximum rate at which water can enter the soil (mm / timestep). Any rainfall above this amount is available for runoff.\nRunoff coefficient (%): Of the water available for runoff (i.e. exceeding the runoff threshold), the percentage that actually runs.\nVegetated catchment: Set this to False to ensure no transpiration is considered an the bare earth evaporation model from Allen et al. (2005) is used.\n\n\n\n\n\n\nTo simulate runoff from vegetated catchments an adaptation of a model by Laio et al. (2001) is used. Precipitation events that exceed the catchment’s storage capacity determined by porosity, current soil moisture levels and infiltration capacity will yield runoff.\nThe current soil moisture of the vegetated catchment is estimated through considering evapotranspiration losses and the history of precipitation events. Evapotranspiration losses are modelled in stages.\nThe first stage occurs when soil moisture is abundant and evapotranspiration occurs at the maximum rate permitted given plant types and the prevailing weather. This stage persists until soil moisture reaches the refill point.\nDuring the second stage evapotranspiration is plant and soil limited, controlled by both soil properties and plants reducing transpiration. Between the refill point and the wilting point, evapotranspiration decreases linearly with soil moisture.\nBelow the wilting point, small evaporative losses occur until the hygroscopic point is reached.\nWhen soil moisture reaches the hygroscopic point, there is no evaporation from the catchment.\n\n\n\n\n\n\nParameter definitions for vegetated catchments\n\n\n\nYou can obtain these parameters from the literature, from geospatial soil properties products or via estimation using pedotransfer functions.\n\nSoil depth to confining layer (m): The depth of soil available to store moisture.\nPorosity (%): The percentage of the soil volume comprising pores.\nField capacity (%): The maximum amount of water the soil can hold after drainage.\nRefill point (%): The point where plants have used up all readily available water for transpiration (soil moisture units %).\nWilting point (%): Level of soil moisture where plants cannot extract water and transpiration losses cease (soil moisture units %).\nHygroscopic point (%): Level of soil moisture where there is no more evaporation.\nInitial soil moisture (%): The initial soil moisture at the start of a simulation.\nInfiltration capacity / runoff threshold (mm / timestep): The maximum rate at which water can enter the soil (mm / timestep). Any rainfall above this amount is available for runoff.\nRunoff coefficient (%): Of the water available for runoff (i.e. exceeding the runoff threshold), the percentage that actually runs.\nVegetated catchment: Set this to True to consider transpiration losses and use the evatranspiration model from Laio et al. (2001) is used.",
     "crumbs": [
       "User guide",
-      "Accounts"
+      "Profiles"
     ]
   },
   {
-    "objectID": "user-guide/accounts.html#overview",
-    "href": "user-guide/accounts.html#overview",
-    "title": "Accounts",
+    "objectID": "user-guide/profiles.html#catchment-profiles",
+    "href": "user-guide/profiles.html#catchment-profiles",
+    "title": "Profiles",
     "section": "",
-    "text": "If you sign up for a WEP-platform account, you can save the results of your analyses and visualise them at a later date. You can also create dam profiles, catchment profiles and costs profiles and attach them to your account for use in simulations. The Settings tab in the navbar contains all account and user management tools.\n\n\n\n\n\n\nTip\n\n\n\nSign up for a WEP-platform account at https://waterevaluationplatform.app/dam",
+    "text": "Depending on how you configure the catchment profile, there are various ways that you can model catchments and simulate runoff from them after precipitation events.\nFor each simulation, you can configure two catchments mix models used to generate runoff from catchments. For example, you could set catchment 1 to be a small roaded catchment using a runoff threshold-style catchment model and you could set catchment 2 to be a larger vegetated catchment where your catchment model accounts for evapotranspiration losses.\n\n\nRunoff threshold-style models daily runoff from the catchment if rainfall exceeded a runoff threshold, all rainfall above the threshold runs into the dam.\nTo use runoff threshold-style catchments you can set the depth to the confining layer to 0 (this effectively prevents the catchment from storing moisture) and set an appropriate runoff threshold. You can optionally set a runoff coefficient where a percentage of precipitation exceeding the runoff threshold actually runs off into the dam.\n\n\n\n\n\n\nModelling runoff from a plastic catchment\n\n\n\nYou would like to model runoff from a catchment that you have covered in plastic sheeting. You know the plastic covered catchment generates runoff for precipitation events greater than 1 mm and 80% of precipitation greater than 1 mm runs off into the dam.\nThis is how you would configure this catchment profile:\n\n    \n\n\n\n\n\n\nIt is possible to simulate runoff from bare earth catchments that store soil moisture and retain memory of soil moisture levels. Here, the evaporating bare earth catchments are based on a model by Allen et al. (2005), which is a two-stage model.\nThe first stage of the model is when evaporation is energy limited and the soil provides enough moisture to meet evaporative demand. There is a constant amount evaporation between field capacity and a point where all readily available water has been evaporated.\nThe second stage of the model is soil limited, where soil hydraulic properties and conditions limit the amount of moisture that can be moved to the surface for evaporation. The rate of evaporation from the soil linearly decreases with soil moisture to a point where no more soil moisture can be evaporated (half the wilting point, following Allen et al. (2005)). You can set the depth and porosity of the soil to determine how much moisture the catchment can store. Any precipitation events that exceed the catchment’s storage capacity and infiltration capacity will runoff.\n\n\n\n\n\n\nParameter definitions for bare earth catchments\n\n\n\nYou can obtain these parameters from the literature, from geospatial soil properties products or via estimation using pedotransfer functions.\n\nSoil depth to confining layer (m): The depth of soil available to store moisture.\nPorosity (%): The percentage of the soil volume comprising pores.\nField capacity (%): The maximum amount of water the soil can hold after drainage.\nReadily evaporable water (%): The point where evaporation from the soil stops being energy limited (soil moisture units %).\nWilting point (%): Level of soil moisture where plants cannot extract water (soil moisture units %).\nHygroscopic point (%): Level of soil moisture where there is no more evaporation. Set this to 0. The hygroscopic point is estimated as half the wilting point.\nInitial soil moisture (%): The initial soil moisture at the start of a simulation.\nInfiltration capacity / runoff threshold (mm / timestep): The maximum rate at which water can enter the soil (mm / timestep). Any rainfall above this amount is available for runoff.\nRunoff coefficient (%): Of the water available for runoff (i.e. exceeding the runoff threshold), the percentage that actually runs.\nVegetated catchment: Set this to False to ensure no transpiration is considered an the bare earth evaporation model from Allen et al. (2005) is used.\n\n\n\n\n\n\nTo simulate runoff from vegetated catchments an adaptation of a model by Laio et al. (2001) is used. Precipitation events that exceed the catchment’s storage capacity determined by porosity, current soil moisture levels and infiltration capacity will yield runoff.\nThe current soil moisture of the vegetated catchment is estimated through considering evapotranspiration losses and the history of precipitation events. Evapotranspiration losses are modelled in stages.\nThe first stage occurs when soil moisture is abundant and evapotranspiration occurs at the maximum rate permitted given plant types and the prevailing weather. This stage persists until soil moisture reaches the refill point.\nDuring the second stage evapotranspiration is plant and soil limited, controlled by both soil properties and plants reducing transpiration. Between the refill point and the wilting point, evapotranspiration decreases linearly with soil moisture.\nBelow the wilting point, small evaporative losses occur until the hygroscopic point is reached.\nWhen soil moisture reaches the hygroscopic point, there is no evaporation from the catchment.\n\n\n\n\n\n\nParameter definitions for vegetated catchments\n\n\n\nYou can obtain these parameters from the literature, from geospatial soil properties products or via estimation using pedotransfer functions.\n\nSoil depth to confining layer (m): The depth of soil available to store moisture.\nPorosity (%): The percentage of the soil volume comprising pores.\nField capacity (%): The maximum amount of water the soil can hold after drainage.\nRefill point (%): The point where plants have used up all readily available water for transpiration (soil moisture units %).\nWilting point (%): Level of soil moisture where plants cannot extract water and transpiration losses cease (soil moisture units %).\nHygroscopic point (%): Level of soil moisture where there is no more evaporation.\nInitial soil moisture (%): The initial soil moisture at the start of a simulation.\nInfiltration capacity / runoff threshold (mm / timestep): The maximum rate at which water can enter the soil (mm / timestep). Any rainfall above this amount is available for runoff.\nRunoff coefficient (%): Of the water available for runoff (i.e. exceeding the runoff threshold), the percentage that actually runs.\nVegetated catchment: Set this to True to consider transpiration losses and use the evatranspiration model from Laio et al. (2001) is used.",
     "crumbs": [
       "User guide",
-      "Accounts"
+      "Profiles"
     ]
   },
   {
-    "objectID": "user-guide/accounts.html#information-privacy",
-    "href": "user-guide/accounts.html#information-privacy",
-    "title": "Accounts",
-    "section": "Information Privacy",
-    "text": "Information Privacy\n\nCommitment to Privacy\nThe University of Western Australia (UWA) is committed to managing personal information legally and responsibly, and in accordance with its privacy framework (www.uwa.edu.au/privacy) .\n\n\nWhat Information do we collect\nWhen you create an account we only collect the following personal information:\n\nFirst Name\nLast Name\nEmail Address\n\nOptionally you can provide your organisation.\n\n\nWhy we collect your personal information\nThis information is used solely for account registration, communication, and service delivery.\nThis information also enables several app features such as allowing users to save the results of analyses and view them later, to create custom information as inputs to dam simulations that is more geographically appropriate, and to keep a record of simulation inputs so they can be reused.\nInformation related to saved simulations, such as input parameters, results or visualisations is not shared between accounts.\nWe do not use this information for research or to collect data for research. We do not disclose your information except as required to do by law or to provide support to you.\n\n\nInformation Security and Storage\nYour personal information is securely stored and protected against unauthorised access, loss, or misuse. Only authorised personnel can access your details.\nSigning into your account will enable you to view your information that is stored by the application.",
+    "objectID": "user-guide/profiles.html#dam-profiles",
+    "href": "user-guide/profiles.html#dam-profiles",
+    "title": "Profiles",
+    "section": "Dam profiles",
+    "text": "Dam profiles\nUnder the Settings tab in the navbar, you can create dam profiles. A dam profile is a representation of water extraction from the dam considering daily livestock drinking, spray uses, irrigation and other dam water uses.\nThe dam profile is attached to a dam simulation and is used to estimate the daily demand for water placed on the dam and to remove this water each day.\n\n\n\n\n\n\nModelling runoff from a plastic catchment\n\n\n\nYou have a dam which 150 sheep use for drinking water and for three months of the year you use the dam’s water for your spray program.\nThis is how you would create this dam profile:\n\n    \n\n\n\nYou can view and delete dam profiles in your Accounts page.\n\nDam water demand\nUse the tabular form to specify the water demand placed on the dam.\nThere are options to set the number of sheep, pigs and cattle that depend upon the dam each month. The livestock’s daily drinking rate is computed based on daily maximum temperatures, obtained from SILO, and the proportion of sheep, pigs and cattle that comprise the stock.\nTo configure irrigation demand, set the monthly amount of water the dam needs to provide for irrigation purposes in kL.\nTo configure spray programs, set the spray rate in litres per hectare, the area sprayed and the number of sprays per month.\nThere are also options for you to input other uses which the dam must provide water for; these are set as monthly amounts in kL.\n\n\nAdditional water supplies\nIf you have additional water supplies, you can capture this within your dam profile and this supply is discounted from the amount the dam must provide to meet demand.\nThere are options to configure monthly supply from bores or other sources in kL.",
     "crumbs": [
       "User guide",
-      "Accounts"
+      "Profiles"
+    ]
+  },
+  {
+    "objectID": "user-guide/profiles.html#cost-profiles",
+    "href": "user-guide/profiles.html#cost-profiles",
+    "title": "Profiles",
+    "section": "Cost profiles",
+    "text": "Cost profiles\nUnder the Settings tab in the navbar, you can create cost profiles. You can view and delete cost profiles in your Accounts page.\nA cost profile specifies the costs to build and maintain a dam and catchment. Cost profiles are attached to dam simulations to provide an indication of the costs associated with constructing and building a dam and catchment combination.\nThe cost profiles are also used in design and comparative analyses; for example, the dam design mode seeks to find the cheapest dam to construct that will be reliable for a given dam profile (demand) and existing catchment. The leaky dam and evaporation reduction analysis modes use the cost profile to assess the cost-benefit of fixing a leaky dam or using evaporation suppression devices (e.g. covers). You would use the cost profile to capture different strategies for fixing leaky dams or reducing evaporation, the different strategies would be reflected in the values attached to the cost profile.\nDefault values are provided based on DPIRD’s report on the Options for Farm Water Supply in a Volatile, Drying Climate. However, it is recommended that you create custom cost profiles to more accurately reflect your situation.\n\n\n\n\n\n\nParameter definitions for costs profiles\n\n\n\n\nCosts profile name: A descriptive name for your cost profile.\nCatchment 1 construction costs ($ / ha): Upfront costs to construct catchment 1.\nCatchment 1 years of operation: The number of years catchment 1 will be operational.\nCatchment 1 maintenance multiplier ($ / ha): The annual cost of maintaining catchment 1.\nCatchment 2 construction costs ($ / ha): Upfront costs to construct catchment 2.\nCatchment 2 years of operation: The number of years catchment 2 will be operational.\nCatchment 2 maintenance multiplier ($ / ha): The annual cost of maintaining catchment 2.\nSilt trap and piped inlet costs ($): Upfront costs to build a silt trap and piped inlet.\nDam construction costs ($ / m³): Upfront costs to construct the dam.\nDam site drilling costs ($): Upfront costs for dam site drilling.\nCost to line dam ($ / m²): Costs to line dams to fix leaks.\nEvaporation treatment cover cost ($ / m²): Costs to cover dams to reduce evaporative losses.\nInterest rate (%): Interest rate to compute annual repayments for construction costs.",
+    "crumbs": [
+      "User guide",
+      "Profiles"
+    ]
+  },
+  {
+    "objectID": "user-guide/user-guide.html",
+    "href": "user-guide/user-guide.html",
+    "title": "WEP docs",
+    "section": "",
+    "text": "Here you can find detailed notes and instructions on the various WEP features, profiles and analysis modes.\nThe Accounts docs provide information on how to sign up for a WEP account and how your data is stored and used.\nThe Profiles docs explains how to create custom dam, catchment and cost profiles. These are saved to your account and let you specify custom water demands, catchment properties and different costs associated with building and maintaining dam and catchments.\nThe Analysis modes docs provides instructions on using the various analysis modes for simulating dam and catchment performance, optimising dam sizes and catchment surfaces to provide reliable water supply and undertaking cost-benefit analyses of fixing leaky dams and using evaporation covers.",
+    "crumbs": [
+      "User guide",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "user-guide/user-guide.html#overview",
+    "href": "user-guide/user-guide.html#overview",
+    "title": "WEP docs",
+    "section": "",
+    "text": "Here you can find detailed notes and instructions on the various WEP features, profiles and analysis modes.\nThe Accounts docs provide information on how to sign up for a WEP account and how your data is stored and used.\nThe Profiles docs explains how to create custom dam, catchment and cost profiles. These are saved to your account and let you specify custom water demands, catchment properties and different costs associated with building and maintaining dam and catchments.\nThe Analysis modes docs provides instructions on using the various analysis modes for simulating dam and catchment performance, optimising dam sizes and catchment surfaces to provide reliable water supply and undertaking cost-benefit analyses of fixing leaky dams and using evaporation covers.",
+    "crumbs": [
+      "User guide",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "user-guide/user-guide.html#navigate-the-app",
+    "href": "user-guide/user-guide.html#navigate-the-app",
+    "title": "WEP docs",
+    "section": "Navigate the app",
+    "text": "Navigate the app\nThis video provides a short guide to navigating the WEP interface. You can also scroll down for more detailed app navigation notes.\n\nThe Settings tab in the navbar gives you access to your account and options to configure dam, costs and catchment profiles. If you have not signed up create a WEP account you can access the sign up form here too.\n\n\n\nFind the Settings menu in the WEP navbar\n\n\nYou can access the dam and roaded catchment analysis tools from the WEP landing page either through the Tools tab in the navbar or scrolling down.\n\n\n\nFind the analysis tools menu in the WEP navbar\n\n\nEach analysis mode is configured using a similar user interface. The sidebar contains a column of widgets that are used to configure the dam simulation or analysis. Click on the form section titles to bring up widgets to enter values into form fields. Use the calendar widgets to specify the date range to run the simulation or analysis for. Use the slider widgets to set the size and volume of the dam.\nYou need to click on the map to locate the dam being simulated. There is a search widget in the top-right of the map display that you can use to search for place names and centre the map on that location.\n\n\n\nConfigure simulations using the web form and map\n\n\nIf you are unsure of the area of a catchment that you wish to simulate, you can use map drawing tools to sketch the catchment on the map.\n\n    \n\n\nYou can also use the drawing tools to edit a catchment.\n\n    \n\n\nThe results of analysis are summarised as a series of report cards and interactive charts. If you have an account, these results are saved and can be visualised at a later date from your account.\n\n    \n\n\nThe Accounts section lets you view the results of your saved analyses, delete analyses you no longer need, and view and delete your dam, costs and catchment profiles.",
+    "crumbs": [
+      "User guide",
+      "Overview"
     ]
   },
   {
@@ -134,206 +269,113 @@
     ]
   },
   {
-    "objectID": "user-guide/user-guide.html",
-    "href": "user-guide/user-guide.html",
-    "title": "WEP docs",
+    "objectID": "user-guide/accounts.html",
+    "href": "user-guide/accounts.html",
+    "title": "Accounts",
     "section": "",
-    "text": "Here you can find detailed notes and instructions on the various WEP features, profiles and analysis modes.\nThe Accounts docs provide information on how to sign up for a WEP account and how your data is stored and used.\nThe Profiles docs explains how to create custom dam, catchment and cost profiles. These are saved to your account and let you specify custom water demands, catchment properties and different costs associated with building and maintaining dam and catchments.\nThe Analysis modes docs provides instructions on using the various analysis modes for simulating dam and catchment performance, optimising dam sizes and catchment surfaces to provide reliable water supply and undertaking cost-benefit analyses of fixing leaky dams and using evaporation covers.",
+    "text": "If you sign up for a WEP-platform account, you can save the results of your analyses and visualise them at a later date. You can also create dam profiles, catchment profiles and costs profiles and attach them to your account for use in simulations. The Settings tab in the navbar contains all account and user management tools.\n\n\n\n\n\n\nTip\n\n\n\nSign up for a WEP-platform account at https://waterevaluationplatform.app/dam",
     "crumbs": [
       "User guide",
-      "Overview"
+      "Accounts"
     ]
   },
   {
-    "objectID": "user-guide/user-guide.html#overview",
-    "href": "user-guide/user-guide.html#overview",
-    "title": "WEP docs",
+    "objectID": "user-guide/accounts.html#overview",
+    "href": "user-guide/accounts.html#overview",
+    "title": "Accounts",
     "section": "",
-    "text": "Here you can find detailed notes and instructions on the various WEP features, profiles and analysis modes.\nThe Accounts docs provide information on how to sign up for a WEP account and how your data is stored and used.\nThe Profiles docs explains how to create custom dam, catchment and cost profiles. These are saved to your account and let you specify custom water demands, catchment properties and different costs associated with building and maintaining dam and catchments.\nThe Analysis modes docs provides instructions on using the various analysis modes for simulating dam and catchment performance, optimising dam sizes and catchment surfaces to provide reliable water supply and undertaking cost-benefit analyses of fixing leaky dams and using evaporation covers.",
+    "text": "If you sign up for a WEP-platform account, you can save the results of your analyses and visualise them at a later date. You can also create dam profiles, catchment profiles and costs profiles and attach them to your account for use in simulations. The Settings tab in the navbar contains all account and user management tools.\n\n\n\n\n\n\nTip\n\n\n\nSign up for a WEP-platform account at https://waterevaluationplatform.app/dam",
     "crumbs": [
       "User guide",
-      "Overview"
+      "Accounts"
     ]
   },
   {
-    "objectID": "user-guide/user-guide.html#navigate-the-app",
-    "href": "user-guide/user-guide.html#navigate-the-app",
-    "title": "WEP docs",
-    "section": "Navigate the app",
-    "text": "Navigate the app\nThis video provides a short guide to navigating the WEP interface. You can also scroll down for more detailed app navigation notes.\n\nThe Settings tab in the navbar gives you access to your account and options to configure dam, costs and catchment profiles. If you have not signed up create a WEP account you can access the sign up form here too.\n\n\n\nFind the Settings menu in the WEP navbar\n\n\nYou can access the dam and roaded catchment analysis tools from the WEP landing page either through the Tools tab in the navbar or scrolling down.\n\n\n\nFind the analysis tools menu in the WEP navbar\n\n\nEach analysis mode is configured using a similar user interface. The sidebar contains a column of widgets that are used to configure the dam simulation or analysis. Click on the form section titles to bring up widgets to enter values into form fields. Use the calendar widgets to specify the date range to run the simulation or analysis for. Use the slider widgets to set the size and volume of the dam.\nYou need to click on the map to locate the dam being simulated. There is a search widget in the top-right of the map display that you can use to search for place names and centre the map on that location.\n\n\n\nConfigure simulations using the web form and map\n\n\nIf you are unsure of the area of a catchment that you wish to simulate, you can use map drawing tools to sketch the catchment on the map.\n\n    \n\n\nYou can also use the drawing tools to edit a catchment.\n\n    \n\n\nThe results of analysis are summarised as a series of report cards and interactive charts. If you have an account, these results are saved and can be visualised at a later date from your account.\n\n    \n\n\nThe Accounts section lets you view the results of your saved analyses, delete analyses you no longer need, and view and delete your dam, costs and catchment profiles.",
+    "objectID": "user-guide/accounts.html#information-privacy",
+    "href": "user-guide/accounts.html#information-privacy",
+    "title": "Accounts",
+    "section": "Information Privacy",
+    "text": "Information Privacy\n\nCommitment to Privacy\nThe University of Western Australia (UWA) is committed to managing personal information legally and responsibly, and in accordance with its privacy framework (www.uwa.edu.au/privacy) .\n\n\nWhat Information do we collect\nWhen you create an account we only collect the following personal information:\n\nFirst Name\nLast Name\nEmail Address\n\nOptionally you can provide your organisation.\n\n\nWhy we collect your personal information\nThis information is used solely for account registration, communication, and service delivery.\nThis information also enables several app features such as allowing users to save the results of analyses and view them later, to create custom information as inputs to dam simulations that is more geographically appropriate, and to keep a record of simulation inputs so they can be reused.\nInformation related to saved simulations, such as input parameters, results or visualisations is not shared between accounts.\nWe do not use this information for research or to collect data for research. We do not disclose your information except as required to do by law or to provide support to you.\n\n\nInformation Security and Storage\nYour personal information is securely stored and protected against unauthorised access, loss, or misuse. Only authorised personnel can access your details.\nSigning into your account will enable you to view your information that is stored by the application.",
     "crumbs": [
       "User guide",
-      "Overview"
+      "Accounts"
     ]
   },
   {
-    "objectID": "user-guide/profiles.html",
-    "href": "user-guide/profiles.html",
-    "title": "Profiles",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Water Evaluation Platform",
     "section": "",
-    "text": "Depending on how you configure the catchment profile, there are various ways that you can model catchments and simulate runoff from them after precipitation events.\nFor each simulation, you can configure two catchments mix models used to generate runoff from catchments. For example, you could set catchment 1 to be a small roaded catchment using a runoff threshold-style catchment model and you could set catchment 2 to be a larger vegetated catchment where your catchment model accounts for evapotranspiration losses.\n\n\nRunoff threshold-style models daily runoff from the catchment if rainfall exceeded a runoff threshold, all rainfall above the threshold runs into the dam.\nTo use runoff threshold-style catchments you can set the depth to the confining layer to 0 (this effectively prevents the catchment from storing moisture) and set an appropriate runoff threshold. You can optionally set a runoff coefficient where a percentage of precipitation exceeding the runoff threshold actually runs off into the dam.\n\n\n\n\n\n\nModelling runoff from a plastic catchment\n\n\n\nYou would like to model runoff from a catchment that you have covered in plastic sheeting. You know the plastic covered catchment generates runoff for precipitation events greater than 1 mm and 80% of precipitation greater than 1 mm runs off into the dam.\nThis is how you would configure this catchment profile:\n\n    \n\n\n\n\n\n\nIt is possible to simulate runoff from bare earth catchments that store soil moisture and retain memory of soil moisture levels. Here, the evaporating bare earth catchments are based on a model by Allen et al. (2005), which is a two-stage model.\nThe first stage of the model is when evaporation is energy limited and the soil provides enough moisture to meet evaporative demand. There is a constant amount evaporation between field capacity and a point where all readily available water has been evaporated.\nThe second stage of the model is soil limited, where soil hydraulic properties and conditions limit the amount of moisture that can be moved to the surface for evaporation. The rate of evaporation from the soil linearly decreases with soil moisture to a point where no more soil moisture can be evaporated (half the wilting point, following Allen et al. (2005)). You can set the depth and porosity of the soil to determine how much moisture the catchment can store. Any precipitation events that exceed the catchment’s storage capacity and infiltration capacity will runoff.\n\n\n\n\n\n\nParameter definitions for bare earth catchments\n\n\n\nYou can obtain these parameters from the literature, from geospatial soil properties products or via estimation using pedotransfer functions.\n\nSoil depth to confining layer (m): The depth of soil available to store moisture.\nPorosity (%): The percentage of the soil volume comprising pores.\nField capacity (%): The maximum amount of water the soil can hold after drainage.\nReadily evaporable water (%): The point where evaporation from the soil stops being energy limited (soil moisture units %).\nWilting point (%): Level of soil moisture where plants cannot extract water (soil moisture units %).\nHygroscopic point (%): Level of soil moisture where there is no more evaporation. Set this to 0. The hygroscopic point is estimated as half the wilting point.\nInitial soil moisture (%): The initial soil moisture at the start of a simulation.\nInfiltration capacity / runoff threshold (mm / timestep): The maximum rate at which water can enter the soil (mm / timestep). Any rainfall above this amount is available for runoff.\nRunoff coefficient (%): Of the water available for runoff (i.e. exceeding the runoff threshold), the percentage that actually runs.\nVegetated catchment: Set this to False to ensure no transpiration is considered an the bare earth evaporation model from Allen et al. (2005) is used.\n\n\n\n\n\n\nTo simulate runoff from vegetated catchments an adaptation of a model by Laio et al. (2001) is used. Precipitation events that exceed the catchment’s storage capacity determined by porosity, current soil moisture levels and infiltration capacity will yield runoff.\nThe current soil moisture of the vegetated catchment is estimated through considering evapotranspiration losses and the history of precipitation events. Evapotranspiration losses are modelled in stages.\nThe first stage occurs when soil moisture is abundant and evapotranspiration occurs at the maximum rate permitted given plant types and the prevailing weather. This stage persists until soil moisture reaches the refill point.\nDuring the second stage evapotranspiration is plant and soil limited, controlled by both soil properties and plants reducing transpiration. Between the refill point and the wilting point, evapotranspiration decreases linearly with soil moisture.\nBelow the wilting point, small evaporative losses occur until the hygroscopic point is reached.\nWhen soil moisture reaches the hygroscopic point, there is no evaporation from the catchment.\n\n\n\n\n\n\nParameter definitions for vegetated catchments\n\n\n\nYou can obtain these parameters from the literature, from geospatial soil properties products or via estimation using pedotransfer functions.\n\nSoil depth to confining layer (m): The depth of soil available to store moisture.\nPorosity (%): The percentage of the soil volume comprising pores.\nField capacity (%): The maximum amount of water the soil can hold after drainage.\nRefill point (%): The point where plants have used up all readily available water for transpiration (soil moisture units %).\nWilting point (%): Level of soil moisture where plants cannot extract water and transpiration losses cease (soil moisture units %).\nHygroscopic point (%): Level of soil moisture where there is no more evaporation.\nInitial soil moisture (%): The initial soil moisture at the start of a simulation.\nInfiltration capacity / runoff threshold (mm / timestep): The maximum rate at which water can enter the soil (mm / timestep). Any rainfall above this amount is available for runoff.\nRunoff coefficient (%): Of the water available for runoff (i.e. exceeding the runoff threshold), the percentage that actually runs.\nVegetated catchment: Set this to True to consider transpiration losses and use the evatranspiration model from Laio et al. (2001) is used.",
-    "crumbs": [
-      "User guide",
-      "Profiles"
-    ]
+    "text": "The Water Evaluation Platform is a web application that provides an interface to dam water modelling tools to explore the performance and costs associated with different dams, roaded catchments, and evaporation treatments."
   },
   {
-    "objectID": "user-guide/profiles.html#catchment-profiles",
-    "href": "user-guide/profiles.html#catchment-profiles",
-    "title": "Profiles",
-    "section": "",
-    "text": "Depending on how you configure the catchment profile, there are various ways that you can model catchments and simulate runoff from them after precipitation events.\nFor each simulation, you can configure two catchments mix models used to generate runoff from catchments. For example, you could set catchment 1 to be a small roaded catchment using a runoff threshold-style catchment model and you could set catchment 2 to be a larger vegetated catchment where your catchment model accounts for evapotranspiration losses.\n\n\nRunoff threshold-style models daily runoff from the catchment if rainfall exceeded a runoff threshold, all rainfall above the threshold runs into the dam.\nTo use runoff threshold-style catchments you can set the depth to the confining layer to 0 (this effectively prevents the catchment from storing moisture) and set an appropriate runoff threshold. You can optionally set a runoff coefficient where a percentage of precipitation exceeding the runoff threshold actually runs off into the dam.\n\n\n\n\n\n\nModelling runoff from a plastic catchment\n\n\n\nYou would like to model runoff from a catchment that you have covered in plastic sheeting. You know the plastic covered catchment generates runoff for precipitation events greater than 1 mm and 80% of precipitation greater than 1 mm runs off into the dam.\nThis is how you would configure this catchment profile:\n\n    \n\n\n\n\n\n\nIt is possible to simulate runoff from bare earth catchments that store soil moisture and retain memory of soil moisture levels. Here, the evaporating bare earth catchments are based on a model by Allen et al. (2005), which is a two-stage model.\nThe first stage of the model is when evaporation is energy limited and the soil provides enough moisture to meet evaporative demand. There is a constant amount evaporation between field capacity and a point where all readily available water has been evaporated.\nThe second stage of the model is soil limited, where soil hydraulic properties and conditions limit the amount of moisture that can be moved to the surface for evaporation. The rate of evaporation from the soil linearly decreases with soil moisture to a point where no more soil moisture can be evaporated (half the wilting point, following Allen et al. (2005)). You can set the depth and porosity of the soil to determine how much moisture the catchment can store. Any precipitation events that exceed the catchment’s storage capacity and infiltration capacity will runoff.\n\n\n\n\n\n\nParameter definitions for bare earth catchments\n\n\n\nYou can obtain these parameters from the literature, from geospatial soil properties products or via estimation using pedotransfer functions.\n\nSoil depth to confining layer (m): The depth of soil available to store moisture.\nPorosity (%): The percentage of the soil volume comprising pores.\nField capacity (%): The maximum amount of water the soil can hold after drainage.\nReadily evaporable water (%): The point where evaporation from the soil stops being energy limited (soil moisture units %).\nWilting point (%): Level of soil moisture where plants cannot extract water (soil moisture units %).\nHygroscopic point (%): Level of soil moisture where there is no more evaporation. Set this to 0. The hygroscopic point is estimated as half the wilting point.\nInitial soil moisture (%): The initial soil moisture at the start of a simulation.\nInfiltration capacity / runoff threshold (mm / timestep): The maximum rate at which water can enter the soil (mm / timestep). Any rainfall above this amount is available for runoff.\nRunoff coefficient (%): Of the water available for runoff (i.e. exceeding the runoff threshold), the percentage that actually runs.\nVegetated catchment: Set this to False to ensure no transpiration is considered an the bare earth evaporation model from Allen et al. (2005) is used.\n\n\n\n\n\n\nTo simulate runoff from vegetated catchments an adaptation of a model by Laio et al. (2001) is used. Precipitation events that exceed the catchment’s storage capacity determined by porosity, current soil moisture levels and infiltration capacity will yield runoff.\nThe current soil moisture of the vegetated catchment is estimated through considering evapotranspiration losses and the history of precipitation events. Evapotranspiration losses are modelled in stages.\nThe first stage occurs when soil moisture is abundant and evapotranspiration occurs at the maximum rate permitted given plant types and the prevailing weather. This stage persists until soil moisture reaches the refill point.\nDuring the second stage evapotranspiration is plant and soil limited, controlled by both soil properties and plants reducing transpiration. Between the refill point and the wilting point, evapotranspiration decreases linearly with soil moisture.\nBelow the wilting point, small evaporative losses occur until the hygroscopic point is reached.\nWhen soil moisture reaches the hygroscopic point, there is no evaporation from the catchment.\n\n\n\n\n\n\nParameter definitions for vegetated catchments\n\n\n\nYou can obtain these parameters from the literature, from geospatial soil properties products or via estimation using pedotransfer functions.\n\nSoil depth to confining layer (m): The depth of soil available to store moisture.\nPorosity (%): The percentage of the soil volume comprising pores.\nField capacity (%): The maximum amount of water the soil can hold after drainage.\nRefill point (%): The point where plants have used up all readily available water for transpiration (soil moisture units %).\nWilting point (%): Level of soil moisture where plants cannot extract water and transpiration losses cease (soil moisture units %).\nHygroscopic point (%): Level of soil moisture where there is no more evaporation.\nInitial soil moisture (%): The initial soil moisture at the start of a simulation.\nInfiltration capacity / runoff threshold (mm / timestep): The maximum rate at which water can enter the soil (mm / timestep). Any rainfall above this amount is available for runoff.\nRunoff coefficient (%): Of the water available for runoff (i.e. exceeding the runoff threshold), the percentage that actually runs.\nVegetated catchment: Set this to True to consider transpiration losses and use the evatranspiration model from Laio et al. (2001) is used.",
-    "crumbs": [
-      "User guide",
-      "Profiles"
-    ]
+    "objectID": "index.html#water-smart-dams",
+    "href": "index.html#water-smart-dams",
+    "title": "Water Evaluation Platform",
+    "section": "Water Smart Dams",
+    "text": "Water Smart Dams\nWEP has been developed through the Water Smart Dams project. This project is developing knowledge and tools to help farmers and other water resource managers to make more informed water investment decisions and management decisions to improve the reliability of dam water supplies.\nThe Water Smart Dams project is jointly funded through the Australian Government’s Future Drought Fund (FDF) and the Western Australian state government’s Agriculture Climate Resilience Fund (ACRF), supported by the Department of Primary Industries and Regional Development (DPIRD).\nFor more information on the Water Smart Dams project, head to the Grower Group Alliance website.\nThe project has 12 core demonstration sites across Western Australia where various dam and catchment technologies have been installed and their performance in terms of generating a reliable water supply have been monitored. These technologies include renovating existing dams, building various types of roaded catchment, implementing evaporation suppression and runoff technologies."
   },
   {
-    "objectID": "user-guide/profiles.html#dam-profiles",
-    "href": "user-guide/profiles.html#dam-profiles",
-    "title": "Profiles",
-    "section": "Dam profiles",
-    "text": "Dam profiles\nUnder the Settings tab in the navbar, you can create dam profiles. A dam profile is a representation of water extraction from the dam considering daily livestock drinking, spray uses, irrigation and other dam water uses.\nThe dam profile is attached to a dam simulation and is used to estimate the daily demand for water placed on the dam and to remove this water each day.\n\n\n\n\n\n\nModelling runoff from a plastic catchment\n\n\n\nYou have a dam which 150 sheep use for drinking water and for three months of the year you use the dam’s water for your spray program.\nThis is how you would create this dam profile:\n\n    \n\n\n\nYou can view and delete dam profiles in your Accounts page.\n\nDam water demand\nUse the tabular form to specify the water demand placed on the dam.\nThere are options to set the number of sheep, pigs and cattle that depend upon the dam each month. The livestock’s daily drinking rate is computed based on daily maximum temperatures, obtained from SILO, and the proportion of sheep, pigs and cattle that comprise the stock.\nTo configure irrigation demand, set the monthly amount of water the dam needs to provide for irrigation purposes in kL.\nTo configure spray programs, set the spray rate in litres per hectare, the area sprayed and the number of sprays per month.\nThere are also options for you to input other uses which the dam must provide water for; these are set as monthly amounts in kL.\n\n\nAdditional water supplies\nIf you have additional water supplies, you can capture this within your dam profile and this supply is discounted from the amount the dam must provide to meet demand.\nThere are options to configure monthly supply from bores or other sources in kL.",
-    "crumbs": [
-      "User guide",
-      "Profiles"
-    ]
+    "objectID": "index.html#water-evaluation-platform-features",
+    "href": "index.html#water-evaluation-platform-features",
+    "title": "Water Evaluation Platform",
+    "section": "Water Evaluation Platform features",
+    "text": "Water Evaluation Platform features\nBuilding on the detailed monitoring of dam and catchment technologies installed on farm demonstration sites, the Water Evaluation Platform (WEP) provides analytics tools to explore the performance of range of dam and catchment technologies across different geographic, farm, and water management contexts.\n\n\n\n\n\n\nUAV capture of the Water Smart Dams Merredin site roaded catchment\n\n\n\n\n\n\n\nSketching out the Merredin site roaded catchment in WEP to simulate its performance\n\n\n\n\n\nWEP has features for simulating dams on farms and dams that are used as part of an off-farm non-potable water supply, such as town dams.\nYou can use WEP to simulate the long-run performance of an existing dam, explore how an existing dam would perform with a different water demand scenario, or explore the reliability of hypothetical dam and water demands in a new location.\n\n\n\n\nSimulating runoff from the Water Smart Dams plastic Wandell catchment and comparing WEP model runoff to ground truth monitoring on-site\n\n\nWEP provides a suite of analysis modes to optimise dam size, design roaded catchments to ensure sufficient runoff is generated, and assess the costs and benefits of fixing leaky dams and using evaporation covers."
   },
   {
-    "objectID": "user-guide/profiles.html#cost-profiles",
-    "href": "user-guide/profiles.html#cost-profiles",
-    "title": "Profiles",
-    "section": "Cost profiles",
-    "text": "Cost profiles\nUnder the Settings tab in the navbar, you can create cost profiles. You can view and delete cost profiles in your Accounts page.\nA cost profile specifies the costs to build and maintain a dam and catchment. Cost profiles are attached to dam simulations to provide an indication of the costs associated with constructing and building a dam and catchment combination.\nThe cost profiles are also used in design and comparative analyses; for example, the dam design mode seeks to find the cheapest dam to construct that will be reliable for a given dam profile (demand) and existing catchment. The leaky dam and evaporation reduction analysis modes use the cost profile to assess the cost-benefit of fixing a leaky dam or using evaporation suppression devices (e.g. covers). You would use the cost profile to capture different strategies for fixing leaky dams or reducing evaporation, the different strategies would be reflected in the values attached to the cost profile.\nDefault values are provided based on DPIRD’s report on the Options for Farm Water Supply in a Volatile, Drying Climate. However, it is recommended that you create custom cost profiles to more accurately reflect your situation.\n\n\n\n\n\n\nParameter definitions for costs profiles\n\n\n\n\nCosts profile name: A descriptive name for your cost profile.\nCatchment 1 construction costs ($ / ha): Upfront costs to construct catchment 1.\nCatchment 1 years of operation: The number of years catchment 1 will be operational.\nCatchment 1 maintenance multiplier ($ / ha): The annual cost of maintaining catchment 1.\nCatchment 2 construction costs ($ / ha): Upfront costs to construct catchment 2.\nCatchment 2 years of operation: The number of years catchment 2 will be operational.\nCatchment 2 maintenance multiplier ($ / ha): The annual cost of maintaining catchment 2.\nSilt trap and piped inlet costs ($): Upfront costs to build a silt trap and piped inlet.\nDam construction costs ($ / m³): Upfront costs to construct the dam.\nDam site drilling costs ($): Upfront costs for dam site drilling.\nCost to line dam ($ / m²): Costs to line dams to fix leaks.\nEvaporation treatment cover cost ($ / m²): Costs to cover dams to reduce evaporative losses.\nInterest rate (%): Interest rate to compute annual repayments for construction costs.",
-    "crumbs": [
-      "User guide",
-      "Profiles"
-    ]
+    "objectID": "index.html#faq",
+    "href": "index.html#faq",
+    "title": "Water Evaluation Platform",
+    "section": "FAQ",
+    "text": "FAQ\nFor a series of commonly asked questions about WEP, check out the FAQs."
   },
   {
-    "objectID": "concepts.html",
-    "href": "concepts.html",
-    "title": "WEP Concepts",
-    "section": "",
-    "text": "WEP is based on a daily water balance model that computes the volume, depth and surface area of water in the dam each day and also daily inflows as runoff from roaded and natural catchments and outflows to meet water demands."
-  },
-  {
-    "objectID": "concepts.html#dam-simulations",
-    "href": "concepts.html#dam-simulations",
-    "title": "WEP Concepts",
-    "section": "Dam simulations",
-    "text": "Dam simulations\nThe user specifies the maximum volume and shape of the dam. For example, for a square dam the user would specify the surface length, maximum depth and slope (from surface edge to base edge). Using these parameters WEP will compute daily dam water volumes, water depth and water surface area. The user also specifies whether the dam is leaky or not. Leaky dams lose a fraction of water through the dam sides touching the water body each day.\nFor a user-specified time-period, daily weather data is retrieved from the SILO product and used to drive the simulation. The dam is filled up by rainfall events and water is lost due to evaporation. Morton’s lake evaporation is used to compute evaporation losses.\n\n\n\nSchematic of the daily water balance model that WEP is based on"
-  },
-  {
-    "objectID": "concepts.html#catchment-profiles",
-    "href": "concepts.html#catchment-profiles",
-    "title": "WEP Concepts",
-    "section": "Catchment profiles",
-    "text": "Catchment profiles\nThe daily water balance model is linked to a catchment model that determines how much runoff is generated and flows into the dam after rainfall events. The catchment profile parameterises the model describing the area, surface type and hydraulic properties of the catchment. Users can create custom catchment profiles or use preset catchments that are representative of common roaded catchments found in Western Australia. The parameter values for the representative Western Australian catchments were derived from monitoring of actual roaded catchments and analysis undertaken by the Water Smart Dams project.\nFor more details describing the catchment models, head to the user guide.\n\n\n\nSchematic of catchments generating runoff into the dam"
-  },
-  {
-    "objectID": "concepts.html#dam-profiles",
-    "href": "concepts.html#dam-profiles",
-    "title": "WEP Concepts",
-    "section": "Dam profiles",
-    "text": "Dam profiles\nEach dam simulation is assigned a dam profile. The dam profile represents water extraction from the dam considering daily livestock drinking rates, spray requirements, irrigation, and other water uses. The dam profile also lets users configure other water sources, such as bore supply, that are combined with dam water to meet overall water demand.\nThe dam profile can be used to describe a range of on-farm and off-farm non-potable water requirements. It is possible to configure dam profiles so that the WEP platform can be used to simulate the performance of dams off-farm, such as town dams providing irrigation water for public green spaces. The dam profile, daily evaporation, and whether the dam is leaky or not determines the daily outflows from the dam.\nFor more details describing dam profiles, head to the user guide.\n\n\n\nSchematic of different sources of water extraction and losses from the dam"
-  },
-  {
-    "objectID": "concepts.html#dam-reliability-and-performance",
-    "href": "concepts.html#dam-reliability-and-performance",
-    "title": "WEP Concepts",
-    "section": "Dam reliability and performance",
-    "text": "Dam reliability and performance\nThe reliability of the dam is computed as the percentage of months during the lifetime of a specified simulation that there was sufficient water in the dam to meet demand, as specified by the dam profile."
-  },
-  {
-    "objectID": "concepts.html#cost-profiles",
-    "href": "concepts.html#cost-profiles",
-    "title": "WEP Concepts",
-    "section": "Cost profiles",
-    "text": "Cost profiles\nSimulations can be run with a costs profile. A costs profile is a record of costs associated with constructing and maintaining dams and roaded catchments. Indicative default costs are provided to all users. However, users with an account can, and should, create their own costs profiles.\nFor more details describing cost profiles, head to the user guide."
-  },
-  {
-    "objectID": "concepts.html#analysis-modes",
-    "href": "concepts.html#analysis-modes",
-    "title": "WEP Concepts",
-    "section": "Analysis modes",
-    "text": "Analysis modes\nWEP provides a range of analysis modes. All of the analysis modes are based on the above described model of dam simulations, catchment profiles, dam profiles and costs profiles:\n\nDam and catchment simulation: Simulate a dam’s performance and water demand using historical weather data.\nDam design: Find the optimum and cheapest reliable dam for your catchment and water demand.\nCatchment analysis: Find the optimum and cheapest reliable catchment surface and area for your water demand.\nLeaky dam analysis: Fix a leaky dam and see how dam performance improves and compute the cost-benefit of fixing the leak.\nEvaporation reduction analysis: Cover a dam and see how dam performance improves and compute the cost-benefit of putting evaporation covers on the dam.\n\nFor more details describing the analysis modes, head to the user guide."
-  },
-  {
-    "objectID": "concepts.html#next-steps",
-    "href": "concepts.html#next-steps",
-    "title": "WEP Concepts",
+    "objectID": "index.html#next-steps",
+    "href": "index.html#next-steps",
+    "title": "Water Evaluation Platform",
     "section": "Next steps",
-    "text": "Next steps\nTry out the Water Evaluation Platform by following the Getting started guide."
+    "text": "Next steps\nExplore the concepts, modelling tools, and analysis modes that comprise WEP. Head to concepts."
   },
   {
-    "objectID": "getting-started.html",
-    "href": "getting-started.html",
-    "title": "Getting started",
+    "objectID": "case-studies.html",
+    "href": "case-studies.html",
+    "title": "Case studies",
     "section": "",
-    "text": "This tutorial demonstrates how to get up and running using the Water Evaluation Platform to simulate dam performance and to perform a suite of analytics that guide optimising dam and catchments to meet water demand.\nTo get started, head to https://waterevaluationplatform.app/dam.\nIn this tutorial, we’ll simulate the effect of adding a 0.45 ha plastic PVC grain tarp catchment to a dam that provides drinking water for sheep in the summer months. In January, February and March, 800 sheep drink from the dam. The dam is situated near Merredin, Western Australia. This is a illustrative scenario used to demonstrate WEP features."
+    "text": "The WaterSmart Dams project is a collaborative initiative to improve the resilience and performance of farm dams in Western Australia. The latest Water Smart Dams case studies showcase key findings and technologies trialled across the project, including:"
   },
   {
-    "objectID": "getting-started.html#create-a-wep-account",
-    "href": "getting-started.html#create-a-wep-account",
-    "title": "Getting started",
-    "section": "Create a WEP account",
-    "text": "Create a WEP account\nTo access the full range of WEP features, sign up for an account. Creating an account lets you save the results of analyses to view them at a later date and to create custom dam, catchment and cost profiles to reuse across analysis modes.\nTo create a WEP account head to Settings in the navbar and select Sign up.\n\n\n\nAccess the Sign up form via the Settings menu\n\n\nThen fill out the sign up form. You can find more information about WEP accounts and how your data is stored and used in the Accounts section of the user guide.\n\n\n\nComplete the sign up form"
+    "objectID": "case-studies.html#benchmarking-evaporation",
+    "href": "case-studies.html#benchmarking-evaporation",
+    "title": "Case studies",
+    "section": "Benchmarking Evaporation",
+    "text": "Benchmarking Evaporation\nAs part of the project, a benchmarking study evaluated evaporation and leakage losses at two sites: Duranillin and Hines Hill using real-time weather and water level monitoring with the General Lake Model (GLM). The aim was to better understand water loss from unmodified farm dams to guide future dam designs and improve water security for growers."
   },
   {
-    "objectID": "getting-started.html#create-a-dam-profile",
-    "href": "getting-started.html#create-a-dam-profile",
-    "title": "Getting started",
-    "section": "Create a dam profile",
-    "text": "Create a dam profile\nDam profiles describe the demand placed on dam water. You can configure dam profiles to capture livestock drinking requirements, spray requirements, irrigation water requirements and other uses.\nIf your dam is one part of the non-potable water supply mix, you can also configure other water supplies, such as bores, to add to the dam water.\nTo create a dam profile, go to Settings in the navbar and select dam profiles. You then need to give the dam profile a name and then fill out the web form describing the demand placed on the dam water. Click on each of the sections to bring up the form widgets. Here, we only have 800 sheep using the dam for drinking in January, February and March so we add that to the form. WEP will use daily temperature data to compute a drinking rate for these sheep for each day that a dam simulation runs for.\n\n\n\nLoad the dam profile creation form\n\n\n\n\n\nCreate a dam profile\n\n\n\n\nHead to the user guide to find more details on configuring profiles."
+    "objectID": "case-studies.html#dam-covers",
+    "href": "case-studies.html#dam-covers",
+    "title": "Case studies",
+    "section": "Dam covers",
+    "text": "Dam covers\nThis trial examined the use of floating dam covers, deployed at full scale to evaluate real-world effectiveness in reducing evaporation losses. With two demonstration sites in Western Australia’s south-west, the project aimed to evaluate the actual effectiveness of the floating cover design, livestock compatibility, and ease of installation to assess if they may contribute to drought resilience and farm water security."
   },
   {
-    "objectID": "getting-started.html#create-a-catchment-profile",
-    "href": "getting-started.html#create-a-catchment-profile",
-    "title": "Getting started",
-    "section": "Create a catchment profile",
-    "text": "Create a catchment profile\nYou can create custom catchment profiles to describe the runoff generating capacity of a roaded or natural catchment that drains into your dam. Currently, in WEP there two types of catchment models:\n\nA runoff threshold-style catchment model that generates runoff for all rain events greater than a threshold.\nBare earth and vegetated catchment models that keep a memory of soil moisture and generate runoff when the soil is saturated.\n\nWith both types of catchment models, depending on how you configure the profile, you can simulate a range of catchments including bitumen, plastic, bare earth with various soil types, and natural catchments.\nA range of catchment profiles, broadly representative of catchments found across south west Western Australia, are pre-loaded in the app. These are a good place to start if you are unsure of the properties of the catchment you want to simulate or if you want to explore how runoff generation, and subsequent dam water supply, vary with different catchment surfaces.\nTo create a catchment profile, go to Settings in the navbar and select Catchment profiles. You then need to fill out the web form in the sidebar with values that represent the catchment you wish to model and its capacity to generate runoff.\nHere, we’ll create a catchment profile to simulate a PVC grain tarp surface. First, we need to locate the catchment on the landscape (this step is required so in future iterations of the tool we can provide functionality to look up catchment properties from geospatial layers). The catchment has a runoff threshold of 1 mm (all rainfall greater than 1 mm has potential to runoff) and a runoff coefficient of 70 % (the % of runoff that reaches the dam). Enter these values in the form widgets in the sidebar and then click Save catchment profile. This will save the catchment profile to your account.\n\n\n\nLoad the catchment profile creation form\n\n\n\n\n\nCreate a catchment profile\n\n\nTo find out more information about creating catchment profiles in WEP head to the user guide."
+    "objectID": "case-studies.html#enhanced-catchments",
+    "href": "case-studies.html#enhanced-catchments",
+    "title": "Case studies",
+    "section": "Enhanced catchments",
+    "text": "Enhanced catchments\nFive demonstration sites across south-west WA trialled different catchment surface treatments from roaded earthworks to repurposed PVC and HDPE tarpaulins. These enhancements targeted a persistent challenge in Australian agriculture: capturing runoff from small, often-overlooked rainfall events. The trials aimed to explore how surface modification technologies can help farmers improve water resilience in a drying climate."
   },
   {
-    "objectID": "getting-started.html#create-a-costs-profile",
-    "href": "getting-started.html#create-a-costs-profile",
-    "title": "Getting started",
-    "section": "Create a costs profile",
-    "text": "Create a costs profile\nA cost profile specifies the costs to build and maintain a dam and catchment.\nSome pre-loaded indicative costs are provided in the application which are derived from DPIRD’s Options for Farm Water Supply in a Volatile, Drying Climate report. These provide default costs for bare earth roaded catchments, plastic catchments and bitumen catchments. When you use analysis tools in the app you will see them loaded with a format Roaded bare earth (C1) and natural (C2) (see figure below too). This means the first catchment (C1) will use the default roaded bare earth cost profile and the second catchment (C2) will use the default natural cost profile.\n\n\n\nDefault cost profiles pre-loaded in the app\n\n\nIt is recommended that you create your own custom cost profiles to more accurately reflect the costs you would face in building and maintaining a dam and roaded catchment.\n\n\n\n\n\n\nTip\n\n\n\nChat to contractors for current indicative construction costs. You can also create different cost profiles to explore the cost-benefit of different dam and catchment technologies and their capacity to provide a reliable water supply.\n\n\nHere, we’ll create a custom cost profile for building and constructing a plastic PVC tarp catchment using figures obtained from the Water Smart Dams project (for catchment 1) and sensible default values for a natural catchment (catchment 2).\nTo create a cost profile, go to Settings in the navbar and select Costs profiles and fill out the form with the following values.\n\nCosts profile name: Getting started demo (plastic PVC)\nCatchment 1 construction costs ($ / ha): 29,400\nCatchment 1 years of operation: 7\nCatchment 1 maintenance multiplier ($ / ha): 769\nCatchment 2 construction costs ($ / ha): 0\nCatchment 2 years of operation: 50\nCatchment 2 maintenance multiplier ($ / ha): 0\nSilt trap and piped inlet costs ($): 2000\nDam construction costs ($ / m³): 3\nDam site drilling costs ($): 200\nCost to line dam ($ / m²): 12\nEvaporation treatment cover cost ($ / m²): 12.5\nInterest rate (%): 0.05\n\n\n\n\nAccess the cost profile form via the Settings menu\n\n\n\n\n\nFill out the cost profile form and save the profile to your account\n\n\nFor more details on creating cost profiles, head to the user-guide."
+    "objectID": "case-studies.html#vegetated-dams",
+    "href": "case-studies.html#vegetated-dams",
+    "title": "Case studies",
+    "section": "Vegetated dams",
+    "text": "Vegetated dams\nOn their mixed farming property near Boscabel in Western Australia’s Shire of Kojonup, Brad and Sarah Ashton manage an 8.2 ML dam, that has surrounding native vegetation including sheoaks and paperbarks. As part of the WaterSmart Dams project, this trial evaluated how this natural solution helps water security and drought resilience. The farm-scale water management trial evaluated how vegetation at the site reduces wind turbulence across the dam, thereby lowering evaporation and saving water."
   },
   {
-    "objectID": "getting-started.html#select-an-analysis-mode",
-    "href": "getting-started.html#select-an-analysis-mode",
-    "title": "Getting started",
-    "section": "Select an analysis mode",
-    "text": "Select an analysis mode\nHere, we’ll run a dam and catchment simulation to explore the reliability of the dam near Merredin with a plastic PVC tarp catchment installed. The dam has to provide drinking water for 800 sheep through summer.\nWe can select the Dam and catchment analysis mode from the Tools in the navbar or scrolling down on the app landing page.\n\n\n\nSelect Dam and catchment analysis"
-  },
-  {
-    "objectID": "getting-started.html#configure-your-analysis",
-    "href": "getting-started.html#configure-your-analysis",
-    "title": "Getting started",
-    "section": "Configure your analysis",
-    "text": "Configure your analysis\nAll of the WEP analysis modes have similar user interfaces to configure simulations and analyses. There are form widgets in the left hand sidebar and a map display to locate the dam on the map and to draw out roaded catchments if required.\nTo start, you can use the search tool in the top right of the map display to navigate the map to the region we’re working in. Once we’re broadly in the right place, we can pan and zoom on the map to locate the dam. As you click on the map you will see a blue marker, centre this on the dam. This marker helps you stay oriented on the map and is also the location that’s used to fetch weather data to drive the simulation.\n\n\n\nLocate the dam and catchment you want to simulate in the map display\n\n\nNext, we need to configure the simulation by filling in the form fields on the left hand sidebar. Use the following values:\n\nSim configuration: Leave this as New config as we have not got pre-saved values for this simulation to use here.\nName: Give your simulation a descriptive name (e.g. Merredin plastic PVC catchment).\nDam profile: Select a dam profile; this should be the one we created earlier which was called Getting started demo.\nDam costs: Select a costs profile, this should be the one we created earlier which was called Getting started demo (plastic PVC).\nSimulation duration: Pick a suitable date range that you want to simulate dam performance for using the calendar widgets. A longer period (e.g. 20 years) generally gives a better indication of dam’s reliability.\nDam location: Click on the map to locate the dam. Make sure the blue marker is in the centre of the dam on the map display. As you move the marker around the map you will see the latitude and longitude values in the form update.\nDam morphometry: Use the sliders to specify the dam morphometry to set the surface area and volume of the dam. This is a square dam has a surface length of 55 m, a depth of 5 m, and slope of 33 %.\nDam water conditions: Set the starting water level for the dam and check the box if the dam is leaky. We’re starting the simulation in January where the dam has lost some water from evaporation, but is not at its driest point. Therefore, set the starting water level to be 60 %. The dam is not leaky.\n\n\n\n\nUse the form widgets on the sidebar to configure your simulation. Click on the arrow for each section to bring up the widgets to enter values\n\n\n\nCatchment 1: Use the map drawing tools to delineate the plastic PVC tarp catchment on the map as catchment 1. Under Catchment 1 click on the draw button to bring up the drawing tools and then draw out the catchment on the map. Use the dropdown list the select the catchment type as Getting started demo.\n\n\n    \n\n\nCatchment 2: Under Catchment 2 set 30 ha of natural catchment draining into the dam. Use the default natural catchment properties here. We do not need to draw this catchment on the map, we can also just enter the catchment area if we know it."
-  },
-  {
-    "objectID": "getting-started.html#run-your-analysis",
-    "href": "getting-started.html#run-your-analysis",
-    "title": "Getting started",
-    "section": "Run your analysis",
-    "text": "Run your analysis\nNow, we’re ready to run the simulation. Click Run simulation at the bottom of the form."
-  },
-  {
-    "objectID": "getting-started.html#explore-your-results",
-    "href": "getting-started.html#explore-your-results",
-    "title": "Getting started",
-    "section": "Explore your results",
-    "text": "Explore your results\nOnce the simulation has finished the results will be displayed as a series of report cards and interactive charts and visualisations.\nOn the left sidebar a summary of simulation results are reported. In particular, the reliability of the dam in terms of the percentage of months the dam met water demand is reported. You can scroll down to view a summary of the costs to build and maintain this dam and catchment.\nThe main panel presents a series of interactive charts providing more details about your simulation results.\n\n\n\nThe simulation results page comprising report cards of key results and interactive charts\n\n\nYou can toggle between three Analysis views that present different interactive charts displaying your simulation results.\nThe Time series view presents time series plots of dam water levels, volume, inflows from the catchment, and evaporation losses.\nThe Dam performance view presents heatmaps showing year by month breakdowns of dam water levels, catchment runoff, evaporation losses, and daily counts of dam failures.\nThe Water demand view presents heatmaps showing year by month break downs of water demand from livestock drinking, spray programs, irrigation, and other water uses.\n\n\n\nHeatmaps provide a year by month break down of dam performance, inflows, evaporation losses and water demand"
-  },
-  {
-    "objectID": "getting-started.html#accounts",
-    "href": "getting-started.html#accounts",
-    "title": "Getting started",
-    "section": "Accounts",
-    "text": "Accounts\nOnce your simulation has finished it will be saved to your account. You can access your account via the Settings in the navbar.\nYou can see a list of saved simulations and analyses and you can click the load sim button to reload the results dashboard.\n\n\n\nView saved simulations and analyses in your account\n\n\nUnder the Projects dropdown list you can switch through different analysis modes to see saved results.\n\n\n\nUse the dropdown list to see saved results from different analysis modes\n\n\nUnder the Profiles dropdown list you can bring up summaries of dam, catchment and cost profiles saved to your account.\n\n\n\nUse the dropdown list to see summaries of dam, catchment and cost profiles saved to your account"
+    "objectID": "case-studies.html#sub-surface-drains",
+    "href": "case-studies.html#sub-surface-drains",
+    "title": "Case studies",
+    "section": "Sub-surface drains",
+    "text": "Sub-surface drains\nThree growers across WA’s south-west Wheatbelt trialled sub-surface drainage systems to investigate whether paddock waterlogging can be turned into a valuable water resource. Field trials measured both the quantity and quality (salinity) of water to evaluate if this is an option to enhance or supplement runoff into dams. From DIY trenching to contractor-installed designs, the growers hosted and evaluated sub-surface drainage options and tested them in real-world conditions across multiple seasons."
   }
 ]
