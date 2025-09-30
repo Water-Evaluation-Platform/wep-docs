@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Getting started – WEP docs</title>
+<title>Technical reports – WEP docs</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -98,7 +98,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Concepts</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./getting-started.html" aria-current="page"> 
+    <a class="nav-link" href="./getting-started.html"> 
 <span class="menu-text">Getting started</span></a>
   </li>  
   <li class="nav-item">
@@ -110,7 +110,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Case studies</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./technical-reports.html"> 
+    <a class="nav-link active" href="./technical-reports.html" aria-current="page"> 
 <span class="menu-text">Technical reports</span></a>
   </li>  
   <li class="nav-item">
@@ -128,29 +128,15 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#create-a-wep-account" id="toc-create-a-wep-account" class="nav-link active" data-scroll-target="#create-a-wep-account">Create a WEP account</a></li>
-  <li><a href="#create-a-dam-profile" id="toc-create-a-dam-profile" class="nav-link" data-scroll-target="#create-a-dam-profile">Create a dam profile</a></li>
-  <li><a href="#create-a-catchment-profile" id="toc-create-a-catchment-profile" class="nav-link" data-scroll-target="#create-a-catchment-profile">Create a catchment profile</a></li>
-  <li><a href="#create-a-costs-profile" id="toc-create-a-costs-profile" class="nav-link" data-scroll-target="#create-a-costs-profile">Create a costs profile</a></li>
-  <li><a href="#select-an-analysis-mode" id="toc-select-an-analysis-mode" class="nav-link" data-scroll-target="#select-an-analysis-mode">Select an analysis mode</a></li>
-  <li><a href="#configure-your-analysis" id="toc-configure-your-analysis" class="nav-link" data-scroll-target="#configure-your-analysis">Configure your analysis</a></li>
-  <li><a href="#run-your-analysis" id="toc-run-your-analysis" class="nav-link" data-scroll-target="#run-your-analysis">Run your analysis</a></li>
-  <li><a href="#explore-your-results" id="toc-explore-your-results" class="nav-link" data-scroll-target="#explore-your-results">Explore your results</a></li>
-  <li><a href="#accounts" id="toc-accounts" class="nav-link" data-scroll-target="#accounts">Accounts</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Getting started</h1>
+<h1 class="title">Technical reports</h1>
 </div>
 
 
@@ -167,244 +153,26 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This tutorial demonstrates how to get up and running using the Water Evaluation Platform to simulate dam performance and to perform a suite of analytics that guide optimising dam and catchments to meet water demand.</p>
-<p>To get started, head to <a href="https://waterevaluationplatform.app/dam" target="_blank">https://waterevaluationplatform.app/dam</a>.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/getting-started/landing-page.jpg" class="img-fluid figure-img"></p>
-<figcaption>WEP landing page</figcaption>
-</figure>
-</div>
-<p>In this tutorial, we’ll simulate the effect of adding a 0.45 ha plastic PVC grain tarp catchment to a dam that provides drinking water for sheep in the summer months. In January, February and March, 800 sheep drink from the dam. The dam is situated near Merredin, Western Australia. This is a illustrative scenario used to demonstrate WEP features.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/getting-started/getting-started-demo-dam.png" class="img-fluid figure-img"></p>
-<figcaption>The dam near Merredin that we’ll simulate combining with a 0.45 ha plastic catchment to assess its reliability in supporting 800 sheep drinking through summer</figcaption>
-</figure>
-</div>
-<section id="create-a-wep-account" class="level2">
-<h2 class="anchored" data-anchor-id="create-a-wep-account">Create a WEP account</h2>
-<p>To access the full range of WEP features, sign up for an account. Creating an account lets you save the results of analyses to view them at a later date and to create custom dam, catchment and cost profiles to reuse across analysis modes.</p>
-<p>To create a WEP account head to <em>Settings</em> in the navbar and select <em>Sign up</em>.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/getting-started/settings-menu-signup.jpg" class="img-fluid figure-img"></p>
-<figcaption>Access the Sign up form via the Settings menu</figcaption>
-</figure>
-</div>
-<p>Then fill out the sign up form. You can find more information about WEP accounts and how your data is stored and used in the <a href="./user-guide/accounts.html">Accounts</a> section of the user guide.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/getting-started/signup.jpg" class="img-fluid figure-img"></p>
-<figcaption>Complete the sign up form</figcaption>
-</figure>
-</div>
-</section>
-<section id="create-a-dam-profile" class="level2">
-<h2 class="anchored" data-anchor-id="create-a-dam-profile">Create a dam profile</h2>
-<p>Dam profiles describe the demand placed on dam water. You can configure dam profiles to capture livestock drinking requirements, spray requirements, irrigation water requirements and other uses.</p>
-<p>If your dam is one part of the non-potable water supply mix, you can also configure other water supplies, such as bores, to add to the dam water.</p>
-<p>To create a dam profile, go to <em>Settings</em> in the navbar and select <em>dam profiles</em>. You then need to give the dam profile a name and then fill out the web form describing the demand placed on the dam water. Click on each of the sections to bring up the form widgets. Here, we only have 800 sheep using the dam for drinking in January, February and March so we add that to the form. WEP will use daily temperature data to compute a drinking rate for these sheep for each day that a dam simulation runs for.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/getting-started/dam-profile-1.jpg" class="img-fluid figure-img"></p>
-<figcaption>Load the dam profile creation form</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/getting-started/dam-profile-2.jpg" class="img-fluid figure-img"></p>
-<figcaption>Create a dam profile</figcaption>
-</figure>
-</div>
-<p>
-</p>
-<p>Head to the <a href="./user-guide/profiles.html#dam-profiles">user guide</a> to find more details on configuring profiles.</p>
-</section>
-<section id="create-a-catchment-profile" class="level2">
-<h2 class="anchored" data-anchor-id="create-a-catchment-profile">Create a catchment profile</h2>
-<p>You can create custom catchment profiles to describe the runoff generating capacity of a roaded or natural catchment that drains into your dam. Currently, in WEP there two types of catchment models:</p>
-<ul>
-<li>A runoff threshold-style catchment model that generates runoff for all rain events greater than a threshold.</li>
-<li>Bare earth and vegetated catchment models that keep a memory of soil moisture and generate runoff when the soil is saturated.</li>
-</ul>
-<p>With both types of catchment models, depending on how you configure the profile, you can simulate a range of catchments including bitumen, plastic, bare earth with various soil types, and natural catchments.</p>
-<p>A range of catchment profiles, broadly representative of catchments found across south west Western Australia, are pre-loaded in the app. These are a good place to start if you are unsure of the properties of the catchment you want to simulate or if you want to explore how runoff generation, and subsequent dam water supply, vary with different catchment surfaces.</p>
-<p>To create a catchment profile, go to <em>Settings</em> in the navbar and select <em>Catchment profiles</em>. You then need to fill out the web form in the sidebar with values that represent the catchment you wish to model and its capacity to generate runoff.</p>
-<p>Here, we’ll create a catchment profile to simulate a PVC grain tarp surface. First, we need to locate the catchment on the landscape (this step is required so in future iterations of the tool we can provide functionality to look up catchment properties from geospatial layers). The catchment has a runoff threshold of 1 mm (all rainfall greater than 1 mm has potential to runoff) and a runoff coefficient of 70 % (the % of runoff that reaches the dam). Enter these values in the form widgets in the sidebar and then click <em>Save catchment profile</em>. This will save the catchment profile to your account.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/getting-started/catchment-profile-1.jpg" class="img-fluid figure-img"></p>
-<figcaption>Load the catchment profile creation form</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/getting-started/catchment-profile-2.jpg" class="img-fluid figure-img"></p>
-<figcaption>Create a catchment profile</figcaption>
-</figure>
-</div>
-<p>To find out more information about creating catchment profiles in WEP head to the <a href="./user-guide/profiles.html#catchment-profiles">user guide</a>.</p>
-</section>
-<section id="create-a-costs-profile" class="level2">
-<h2 class="anchored" data-anchor-id="create-a-costs-profile">Create a costs profile</h2>
-<p>A cost profile specifies the costs to build and maintain a dam and catchment.</p>
-<p>Some pre-loaded indicative costs are provided in the application which are derived from DPIRD’s <em>Options for Farm Water Supply in a Volatile, Drying Climate</em> report. These provide default costs for bare earth roaded catchments, plastic catchments and bitumen catchments. When you use analysis tools in the app you will see them loaded with a format <em>Roaded bare earth (C1) and natural (C2)</em> (see figure below too). This means the first catchment (C1) will use the default roaded bare earth cost profile and the second catchment (C2) will use the default natural cost profile.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/getting-started/default-cost-profiles.jpg" class="img-fluid figure-img"></p>
-<figcaption>Default cost profiles pre-loaded in the app</figcaption>
-</figure>
-</div>
-<p>It is recommended that you create your own custom cost profiles to more accurately reflect the costs you would face in building and maintaining a dam and roaded catchment.</p>
-<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Tip
+Warning
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Chat to contractors for current indicative construction costs. You can also create different cost profiles to explore the cost-benefit of different dam and catchment technologies and their capacity to provide a reliable water supply.</p>
-</div>
-</div>
-<p>Here, we’ll create a custom cost profile for building and constructing a plastic PVC tarp catchment using figures obtained from the Water Smart Dams project (for catchment 1) and sensible default values for a natural catchment (catchment 2).</p>
-<p>To create a cost profile, go to <em>Settings</em> in the navbar and select <em>Costs profiles</em> and fill out the form with the following values.</p>
+<p>COMING SOON</p>
+<p>The WaterSmart Dams project is a collaborative initiative to improve the resilience and performance of farm dams in Western Australia. Detailed findings from the Water Smart Dams projects can be found in the following technical reports:</p>
 <ul>
-<li><strong>Costs profile name:</strong> Getting started demo (plastic PVC)</li>
-<li><strong>Catchment 1 construction costs ($ / ha):</strong> 29,400</li>
-<li><strong>Catchment 1 years of operation:</strong> 7</li>
-<li><strong>Catchment 1 maintenance multiplier ($ / ha):</strong> 769</li>
-<li><strong>Catchment 2 construction costs ($ / ha):</strong> 0</li>
-<li><strong>Catchment 2 years of operation:</strong> 50</li>
-<li><strong>Catchment 2 maintenance multiplier ($ / ha):</strong> 0</li>
-<li><strong>Silt trap and piped inlet costs ($):</strong> 2000</li>
-<li><strong>Dam construction costs ($ / m³):</strong> 3</li>
-<li><strong>Dam site drilling costs ($):</strong> 200</li>
-<li><strong>Cost to line dam ($ / m²):</strong> 12</li>
-<li><strong>Evaporation treatment cover cost ($ / m²):</strong> 12.5</li>
-<li><strong>Interest rate (%):</strong> 0.05</li>
+<li><strong><a href="https://storage.cloud.google.com/wsd-reports/WSD%20Surface%20Water%20Technical%20Report.pdf" target="_blank">WSD Surface Water Technical Report</a></strong></li>
+<li><strong><a href="https://storage.cloud.google.com/wsd-reports/WSD%20Evaporation%20Technical%20Report.pdf" target="_blank">WSD Evaporation Technical Report</a></strong></li>
 </ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/getting-started/cost-profile-1.jpg" class="img-fluid figure-img"></p>
-<figcaption>Access the cost profile form via the Settings menu</figcaption>
-</figure>
 </div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/getting-started/cost-profile-2.jpg" class="img-fluid figure-img"></p>
-<figcaption>Fill out the cost profile form and save the profile to your account</figcaption>
-</figure>
-</div>
-<p>For more details on creating cost profiles, head to the <a href="./user-guide/profiles.html#cost-profiles">user-guide</a>.</p>
-</section>
-<section id="select-an-analysis-mode" class="level2">
-<h2 class="anchored" data-anchor-id="select-an-analysis-mode">Select an analysis mode</h2>
-<p>Here, we’ll run a dam and catchment simulation to explore the reliability of the dam near Merredin with a plastic PVC tarp catchment installed. The dam has to provide drinking water for 800 sheep through summer.</p>
-<p>We can select the <em>Dam and catchment</em> analysis mode from the <em>Tools</em> in the navbar or scrolling down on the app landing page.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/getting-started/analysis-tools-1.jpg" class="img-fluid figure-img"></p>
-<figcaption>Select Dam and catchment analysis</figcaption>
-</figure>
-</div>
-</section>
-<section id="configure-your-analysis" class="level2">
-<h2 class="anchored" data-anchor-id="configure-your-analysis">Configure your analysis</h2>
-<p>All of the WEP analysis modes have similar user interfaces to configure simulations and analyses. There are form widgets in the left hand sidebar and a map display to locate the dam on the map and to draw out roaded catchments if required.</p>
-<p>To start, you can use the <em>search</em> tool in the top right of the map display to navigate the map to the region we’re working in. Once we’re broadly in the right place, we can pan and zoom on the map to locate the dam. As you click on the map you will see a blue marker, centre this on the dam. This marker helps you stay oriented on the map and is also the location that’s used to fetch weather data to drive the simulation.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/getting-started/locate-dam-1.jpg" class="img-fluid figure-img"></p>
-<figcaption>Locate the dam and catchment you want to simulate in the map display</figcaption>
-</figure>
-</div>
-<p>Next, we need to configure the simulation by filling in the form fields on the left hand sidebar. Use the following values:</p>
-<ul>
-<li><strong>Sim configuration:</strong> Leave this as <code>New config</code> as we have not got pre-saved values for this simulation to use here.</li>
-<li><strong>Name:</strong> Give your simulation a descriptive name (e.g.&nbsp;<code>Merredin plastic PVC catchment</code>).</li>
-<li><strong>Dam profile:</strong> Select a dam profile; this should be the one we created earlier which was called <code>Getting started demo</code>.</li>
-<li><strong>Dam costs:</strong> Select a costs profile, this should be the one we created earlier which was called <code>Getting started demo (plastic PVC)</code>.</li>
-<li><strong>Simulation duration:</strong> Pick a suitable date range that you want to simulate dam performance for using the calendar widgets. A longer period (e.g.&nbsp;20 years) generally gives a better indication of dam’s reliability.</li>
-<li><strong>Dam location:</strong> Click on the map to locate the dam. Make sure the blue marker is in the centre of the dam on the map display. As you move the marker around the map you will see the latitude and longitude values in the form update.</li>
-<li><strong>Dam morphometry:</strong> Use the sliders to specify the dam morphometry to set the surface area and volume of the dam. This is a square dam has a surface length of <code>55 m</code>, a depth of <code>5 m</code>, and slope of <code>33 %</code>.</li>
-<li><strong>Dam water conditions:</strong> Set the starting water level for the dam and check the box if the dam is leaky. We’re starting the simulation in January where the dam has lost some water from evaporation, but is not at its driest point. Therefore, set the starting water level to be <code>60 %</code>. The dam is not leaky.</li>
-</ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/getting-started/configure-form-1.jpg" class="img-fluid figure-img"></p>
-<figcaption>Use the form widgets on the sidebar to configure your simulation. Click on the arrow for each section to bring up the widgets to enter values</figcaption>
-</figure>
-</div>
-<ul>
-<li><strong>Catchment 1:</strong> Use the map drawing tools to delineate the plastic PVC tarp catchment on the map as catchment 1. Under <em>Catchment 1</em> click on the <em>draw</em> button to bring up the drawing tools and then draw out the catchment on the map. Use the dropdown list the select the catchment type as <em>Getting started demo</em>.</li>
-</ul>
-<div class="video-container">
-    <iframe class="responsive-iframe" src="https://drive.google.com/file/d/17dZJRL9vBU_UdCMY6Q8Y6bBmpA9dSGpX/preview" allow="autoplay"></iframe>
-</div>
-<ul>
-<li><strong>Catchment 2:</strong> Under <em>Catchment 2</em> set 30 ha of natural catchment draining into the dam. Use the default natural catchment properties here. We do not need to draw this catchment on the map, we can also just enter the catchment area if we know it.</li>
-</ul>
-<div class="video-container">
-    <iframe class="responsive-iframe" src="https://drive.google.com/file/d/13e8aT9cIuREyAjCpJT8_D4LHjbQDfAET/preview" allow="autoplay"></iframe>
-</div>
-</section>
-<section id="run-your-analysis" class="level2">
-<h2 class="anchored" data-anchor-id="run-your-analysis">Run your analysis</h2>
-<p>Now, we’re ready to run the simulation. Click <em>Run simulation</em> at the bottom of the form.</p>
-</section>
-<section id="explore-your-results" class="level2">
-<h2 class="anchored" data-anchor-id="explore-your-results">Explore your results</h2>
-<p>Once the simulation has finished the results will be displayed as a series of report cards and interactive charts and visualisations.</p>
-<p>On the left sidebar a summary of simulation results are reported. In particular, the reliability of the dam in terms of the percentage of months the dam met water demand is reported. You can scroll down to view a summary of the costs to build and maintain this dam and catchment.</p>
-<p>The main panel presents a series of interactive charts providing more details about your simulation results.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/getting-started/results.jpg" class="img-fluid figure-img"></p>
-<figcaption>The simulation results page comprising report cards of key results and interactive charts</figcaption>
-</figure>
-</div>
-<p>You can toggle between three <em>Analysis views</em> that present different interactive charts displaying your simulation results.</p>
-<p>The <em>Time series</em> view presents time series plots of dam water levels, volume, inflows from the catchment, and evaporation losses.</p>
-<p>The <em>Dam performance</em> view presents heatmaps showing year by month breakdowns of dam water levels, catchment runoff, evaporation losses, and daily counts of dam failures.</p>
-<p>The <em>Water demand</em> view presents heatmaps showing year by month break downs of water demand from livestock drinking, spray programs, irrigation, and other water uses.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/getting-started/heatmaps.jpg" class="img-fluid figure-img"></p>
-<figcaption>Heatmaps provide a year by month break down of dam performance, inflows, evaporation losses and water demand</figcaption>
-</figure>
-</div>
-</section>
-<section id="accounts" class="level2">
-<h2 class="anchored" data-anchor-id="accounts">Accounts</h2>
-<p>Once your simulation has finished it will be saved to your account. You can access your account via the <em>Settings</em> in the navbar.</p>
-<p>You can see a list of saved simulations and analyses and you can click the <em>load sim</em> button to reload the results dashboard.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/getting-started/accounts-load-sim.jpg" class="img-fluid figure-img"></p>
-<figcaption>View saved simulations and analyses in your account</figcaption>
-</figure>
-</div>
-<p>Under the <em>Projects</em> dropdown list you can switch through different analysis modes to see saved results.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/getting-started/accounts-analysis-modes.jpg" class="img-fluid figure-img"></p>
-<figcaption>Use the dropdown list to see saved results from different analysis modes</figcaption>
-</figure>
-</div>
-<p>Under the <em>Profiles</em> dropdown list you can bring up summaries of dam, catchment and cost profiles saved to your account.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/getting-started/accounts-analysis-modes.jpg" class="img-fluid figure-img"></p>
-<figcaption>Use the dropdown list to see summaries of dam, catchment and cost profiles saved to your account</figcaption>
-</figure>
 </div>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

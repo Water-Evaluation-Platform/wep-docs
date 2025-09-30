@@ -1,0 +1,17 @@
+---
+title: "Technical reports"
+page-layout: article
+format:
+  html:
+    toc: true
+    collapse-level: 4
+---
+
+::: {.callout-warning}
+COMING SOON
+
+The WaterSmart Dams project is a collaborative initiative to improve the resilience and performance of farm dams in Western Australia. Detailed findings from the Water Smart Dams projects can be found in the following technical reports:
+
+* **<a href="https://storage.cloud.google.com/wsd-reports/WSD%20Surface%20Water%20Technical%20Report.pdf" target="_blank">WSD Surface Water Technical Report</a>**
+* **<a href="https://storage.cloud.google.com/wsd-reports/WSD%20Evaporation%20Technical%20Report.pdf" target="_blank">WSD Evaporation Technical Report</a>**
+:::
