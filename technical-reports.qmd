@@ -15,8 +15,7 @@ The WaterSmart Dams project is a collaborative initiative to improve the resilie
 
 ***
 
-::: {.callout-warning}
-COMING SOON
+**<a href="https://storage.googleapis.com/wsd-reports/WSD%20Surface%20Water%20Technical%20Report.pdf" target="_blank">WSD Surface Water Technical Report</a>**
 
-**<a href="https://storage.cloud.google.com/wsd-reports/WSD%20Surface%20Water%20Technical%20Report.pdf" target="_blank">WSD Surface Water Technical Report</a>**
-:::
+
+*When on-farm sources are exhausted, relying on water carting from scheme water and other supplementary supplies is the single most costly way to source water. It is a poor and costly response to drought adaptation. This project looks at options to address this challenge by: 1) evaluating the performance of enhanced or engineered surface catchments that use PVC tarpaulins and other plastic surfaces (HDPE) to harvest water from low-intensity rainfall events, and 2) the utility of subsurface drainage systems to capture water from waterlogged soils and harvest and store it in dams for on-farm non-potable use.*
