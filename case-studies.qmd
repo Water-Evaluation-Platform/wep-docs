@@ -32,3 +32,7 @@ Three growers across WA’s south-west Wheatbelt trialled sub-surface drainage s
 ## <a href="https://github.com/Water-Evaluation-Platform/wep-docs/raw/main/pdfs/Lined catchment factsheet.pdf" target="_blank">Lined catchments</a>
 
 Plastic-lined catchments are best suited to the flat, low-rainfall areas of the WA wheatbelt, where they can improve farm water security by increasing runoff capture. They should be considered alongside options such as increasing storage, improving existing catchments or infrastructure to improve water use efficiency. 
+
+::: {.callout-note title="Print version"}
+  You can download a high quality <a href="https://github.com/Water-Evaluation-Platform/wep-docs/raw/main/pdfs/Lined catchment factsheet print.pdf" target="_blank">print version</a> of the lined catchment case study for in-person workshops and events.
+:::
