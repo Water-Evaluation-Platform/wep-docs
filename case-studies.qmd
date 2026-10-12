@@ -28,3 +28,7 @@ On their mixed farming property near Boscabel in Western Australia's Shire of Ko
 ## <a href="https://github.com/Water-Evaluation-Platform/wep-docs/raw/main/pdfs/Sub-surface drain.pdf" target="_blank">Sub-surface drains</a>
 
 Three growers across WA’s south-west Wheatbelt trialled sub-surface drainage systems to investigate whether paddock waterlogging can be turned into a valuable water resource. Field trials measured both the quantity and quality (salinity) of water to evaluate if this is an option to enhance or supplement runoff into dams. From DIY trenching to contractor-installed designs, the growers hosted and evaluated sub-surface drainage options and tested them in real-world conditions across multiple seasons.
+
+## <a href="https://github.com/Water-Evaluation-Platform/wep-docs/raw/main/pdfs/Lined catchment factsheet.pdf" target="_blank">Lined catchments</a>
+
+Plastic-lined catchments are best suited to the flat, low-rainfall areas of the WA wheatbelt, where they can improve farm water security by increasing runoff capture. They should be considered alongside options such as increasing storage, improving existing catchments or infrastructure to improve water use efficiency. 
